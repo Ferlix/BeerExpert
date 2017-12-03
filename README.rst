@@ -85,7 +85,7 @@ The rest of the parts of this project will be licensed also as *public domain*  
 
 Acknowledgements and remarks
 ----------------
-The original project was downloaded from CLIPS4Android project <https://github.com/gomezgoiri/CLIPS4Android/blob/master/README.rst>_` and modified
+The original project was downloaded from `CLIPS4Android project <https://github.com/gomezgoiri/CLIPS4Android/blob/master/README.rst>_` and modified
 for the development of an app at the University of Groningen (Netherlands).
 
 The development was possible with the work done in the `CLIPSJNI project <http://clipsrules.sourceforge.net/CLIPSJNIBeta.html>`_.
