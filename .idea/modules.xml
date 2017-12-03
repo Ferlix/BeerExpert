@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:\Users\Marco\Desktop\expert_demo\animalDemo\animalDemo.iml" filepath="C:\Users\Marco\Desktop\expert_demo\animalDemo\animalDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beerDemo/beerDemo.iml" filepath="$PROJECT_DIR$/beerDemo/beerDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clipsAndroid/clipsAndroid.iml" filepath="$PROJECT_DIR$/clipsAndroid/clipsAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/expert_demo.iml" filepath="$PROJECT_DIR$/expert_demo.iml" />
+    </modules>
+  </component>
+</project>
