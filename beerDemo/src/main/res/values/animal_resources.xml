@@ -6,7 +6,7 @@
 <string name="Next">Next</string>
 <string name="Prev">Prev</string>
 <string name="Restart">Restart</string>
-<string name="WelcomeMessage">Welcome to the Beer Advisor Expert System. \n Unfortunately, the Expert
+<string name="WelcomeMessage">Hello world! \n \n \nWelcome to the Beer Advisor Expert System. \nUnfortunately, the Expert
                                 has still to learn about beers, but it knows a lot of animals. \n
                                     Test it out!</string>
 <string name="backbone.query">Does your animal have a backbone?</string>
