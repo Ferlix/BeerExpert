@@ -21,7 +21,7 @@ Follow the following steps to compile the CLIPS module (written in C) for Androi
  1. Open the SDK manager in Android Studio
  2. Go to the SDK tools section
  3. Check the boxes next to NDK, LLDB and C-make and apply the changes clicking OK
- 4. Import the project and link C module with Gradle in the project explorer pane
+ 4. Import the project and link the C module (the folder ClipsAndroid) with Gradle in the project explorer pane
  5. Go to the *jni* folder and bind the Android.mk
  6. Run
 
@@ -85,7 +85,8 @@ The rest of the parts of this project will be licensed also as *public domain*  
 
 Acknowledgements and remarks
 ----------------
-The original project was downloaded from CLIPS4Android project <https://github.com/gomezgoiri/CLIPS4Android/blob/master/README.rst>` and modified
+The original project was downloaded from CLIPS4Android project <https://github.com/gomezgoiri/CLIPS4Android/blob/master/README.rst>_` and modified
 for the development of an app at the University of Groningen (Netherlands).
+
 The development was possible with the work done in the `CLIPSJNI project <http://clipsrules.sourceforge.net/CLIPSJNIBeta.html>`_.
 Besides, this project is supported or has been supported by the `THOFU R&D project <http://www.thofu.es/>`_ (project grant CEN-20101019).
