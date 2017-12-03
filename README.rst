@@ -10,19 +10,20 @@ ClipsAndroid
   It is an Android library which is intended to be used by other Android applications. To compile the project with Android Studio, it is necessary to compile the CLIPS module for Android first (see `Compiling CLIPS for Android`_.).
 
 BeerExpert
-  It is an application embedding an expert system specialized in beers and in brewing beers. It gives suggestions based on the user preference. 
+  It is an application embedding an expert system specialized in beers and in brewing beers. It gives suggestions based on the user preference.
 
 Compiling CLIPS for Android
 ---------------------------
 
 Follow the following steps to compile the CLIPS module (written in C) for Android:
+
 *Compiling CLIPS from Android Studio*
  1. Open the SDK manager in Android Studio
  2. Go to the SDK tools section
  3. Check the boxes next to NDK, LLDB and C-make and apply the changes clicking OK
- 4. Import the project and link C module with Gradle
- 2. Go to the *jni* folder and bind the Android.mk
- 3. Run
+ 4. Import the project and link C module with Gradle in the project explorer pane
+ 5. Go to the *jni* folder and bind the Android.mk
+ 6. Run
 
 *Compiling CLIPS from command line*
  1. Install the `NDK <http://developer.android.com/tools/sdk/ndk/index.html>`_
