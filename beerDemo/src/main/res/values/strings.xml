@@ -5,4 +5,9 @@
     <string name="restart">Restart</string>
     <string name="previous">Previous</string>
     <string name="next">Next</string>
+    <string name="start">Start</string>
+    <string name="about_this_app">This expert system is developed for the course
+        Knowledge Technology Practical at the University of Groningen. \n \n \n
+        This version is a prototype, and it does not reflect the properties
+        of the final project.</string>
 </resources>

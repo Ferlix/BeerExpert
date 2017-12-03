@@ -15,6 +15,10 @@
                                 has still to learn about beers, but it knows a lot of animals. \n
                                     Test it out!</string>
     <string name="Yes">Yes</string>
+    <string name="about_this_app">This expert system is developed for the course
+        Knowledge Technology Practical at the University of Groningen. \n \n \n
+        This version is a prototype, and it does not reflect the properties
+        of the final project.</string>
     <string name="action_about_this_app">About this app</string>
     <string name="always.in.water.query">Is your animal always in water?</string>
     <string name="app_name">BeerExpert (CLIPS)</string>
@@ -96,6 +100,7 @@
     <string name="spikes.query">Does your animal normally have spikes radiating from its body?</string>
     <string name="spiral.shell.query">Does your animal have a spiral-shaped shell?</string>
     <string name="squid.octopus">I think your animal is a squid or octopus.</string>
+    <string name="start">Start</string>
     <string name="stationary.query">Is your animal attached permanently to an object?</string>
     <string name="tail.query">Does your animal have a tail?</string>
     <string name="thintail.query">Does your animal have a thin tail?</string>

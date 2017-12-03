@@ -11,13 +11,16 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 import android.app.Activity;
+import android.app.Notification;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.ActionMenuView;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -150,7 +153,7 @@ public class MainActivity extends Activity implements NextStateListener {
 	}
 	
 	private void setLabelText(String text) {
-		final TextView lblMsg = (TextView) findViewById(R.id.label);
+		final TextView lblMsg = (TextView) findViewById(R.id.start_message);
 		lblMsg.setText( text );
 	}
 	
@@ -184,6 +187,7 @@ public class MainActivity extends Activity implements NextStateListener {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
+
 		try {
 			createRootDirectoryIfDoesNotExist();
 			final String expertSystemRulesFile = getRealFilePathCreatingIfDoesNotExist( "bcdemo.clp" );
@@ -210,6 +214,7 @@ public class MainActivity extends Activity implements NextStateListener {
 		super.onDestroy();
 	}
 
+	// Method to create the menu bar
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
@@ -217,6 +222,20 @@ public class MainActivity extends Activity implements NextStateListener {
 		return true;
 
 	}
+
+	// Methods for the items in the menu bar
+    // action_about_this_app: when clicked, bring to the relative activity
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle item selection
+        switch (item.getItemId()) {
+            case R.id.action_about_this_app:
+                startActivity(new Intent(MainActivity.this, AboutThisApp.class));
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
 	
 	public void onClickRestart(View view) {
 		submitTaskToExpertSystem( this.taskFactory.createRestartTask() );
