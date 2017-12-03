@@ -14,16 +14,16 @@ BeerExpert
 
 Compiling CLIPS for Android
 ---------------------------
-
-Follow the following steps to compile the CLIPS module (written in C) for Android:
+If the compiler does not run the app immediately, you might have to compile CLIPS first (it should be already built in anyway). 
+Follow the following steps to compile the CLIPS module written in C for Android:
 
 *Compiling CLIPS from Android Studio*
  1. Open the SDK manager in Android Studio
  2. Go to the SDK tools section
  3. Check the boxes next to NDK, LLDB and C-make and apply the changes clicking OK
- 4. Import the project and link the C module (the folder ClipsAndroid) with Gradle in the project explorer pane
- 5. Go to the *jni* folder and bind the Android.mk
- 6. Run
+ 4. Link the C module (the folder ClipsAndroid) with Gradle in the project explorer pane
+ 5. Select the file Android.mk to be build with ndk-build 
+ 6. Clean the environment and build the app
 
 *Compiling CLIPS from command line*
  1. Install the `NDK <http://developer.android.com/tools/sdk/ndk/index.html>`_
