@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="BeerDemo">Beer Demo</string>
+<string name="No">No</string>
+<string name="Yes">Yes</string>
+<string name="Next">Next</string>
+<string name="Prev">Prev</string>
+<string name="Restart">Restart</string>
+<string name="WelcomeMessage">Hello world! \n \n \nWelcome to the Beer Advisor Expert System. \n
+    Test it out!</string>
+<string name="fruity.query">Does you prefer fuity beers over dry ones?</string>
+<string name="blonde.query">Do you prefer blonde beers?</string>
+<string name="dark.lager">You should go for a Dark Lager</string>
+<string name="blonde.lager">You should go for a blonde Lager</string>
+    <string name="dark.ale">You should brew a dark ale</string>
+    <string name="blonde.ale">You should bre a blonde ale</string>
+</resources>

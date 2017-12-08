@@ -81,7 +81,7 @@ public class MainActivity extends Activity implements NextStateListener {
 	ExpertSystem beerExpertSystem;
 	ExpertTaskFactory taskFactory;
 	
-	static final String appRootDirectory = "/expert_demo";
+	static final String appRootDirectory = "/beerExpert";
 	
 	private String getResourceString(String label) {
 		return getString( getResources().getIdentifier( label, "string", getBaseContext().getPackageName() ) );
@@ -191,7 +191,7 @@ public class MainActivity extends Activity implements NextStateListener {
 		try {
 			createRootDirectoryIfDoesNotExist();
 			final String expertSystemRulesFile = getRealFilePathCreatingIfDoesNotExist( "bcdemo.clp" );
-			final String beerDemoFile = getRealFilePathCreatingIfDoesNotExist( "animaldemo.clp" );
+			final String beerDemoFile = getRealFilePathCreatingIfDoesNotExist( "beerdemo.clp" );
 			
 			this.beerExpertSystem = new ExpertSystem( new String[] {expertSystemRulesFile, beerDemoFile} );
 			this.beerExpertSystem.addListener(this);
