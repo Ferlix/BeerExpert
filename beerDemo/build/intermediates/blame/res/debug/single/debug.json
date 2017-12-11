@@ -12,12 +12,12 @@
         "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\mipmap-mdpi\\beer_icon_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_beer_icon_launcher.png.flat",
-        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\mipmap-xxxhdpi\\beer_icon_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_beer_icon_launcher.png.flat",
         "source": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\src\\main\\res\\mipmap-xxhdpi\\beer_icon_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_beer_icon_launcher.png.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\mipmap-xxxhdpi\\beer_icon_launcher.png"
     },
     {
         "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_beer_icon_launcher.png.flat",
@@ -36,20 +36,12 @@
         "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\mipmap-xhdpi\\beer_icon_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\layout_about_this_app.xml.flat",
-        "source": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\src\\main\\res\\layout\\about_this_app.xml"
-    },
-    {
         "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_beer_icon_launcher.png.flat",
         "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\mipmap-hdpi\\beer_icon_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\layout_about_this_app.xml.flat",
-        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\layout\\about_this_app.xml"
     },
     {
         "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",

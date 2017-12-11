@@ -6,12 +6,16 @@
 <string name="Next">Next</string>
 <string name="Prev">Prev</string>
 <string name="Restart">Restart</string>
-<string name="WelcomeMessage">Hello world! \n \n \nWelcome to the Beer Advisor Expert System. \n
+<string name="WelcomeMessage">Hello world! \n \n \nWelcome to the Brew Expert System! \n
+    This wise application can tell you what\'s the perfect beer for you,
+   giving you also the needed ingredients for brewing it.
     Test it out!</string>
-<string name="fruity.query">Does you prefer fuity beers over dry ones?</string>
-<string name="blonde.query">Do you prefer blonde beers?</string>
-<string name="dark.lager">You should go for a Dark Lager</string>
-<string name="blonde.lager">You should go for a blonde Lager</string>
-    <string name="dark.ale">You should brew a dark ale</string>
-    <string name="blonde.ale">You should bre a blonde ale</string>
+
+<string name="fruity.query">Do you prefer fuity beers over dry ones?</string>
+<string name="blonde.query">Do you prefer blonde beers over dark ones?</string>
+
+<string name="dark.lager">You should brew a dark Lager!</string>
+<string name="blonde.lager">You should brew a blonde Lager</string>
+    <string name="dark.ale">You should brew a dark Ale</string>
+    <string name="blonde.ale">You should brew a blonde Ale</string>
 </resources>

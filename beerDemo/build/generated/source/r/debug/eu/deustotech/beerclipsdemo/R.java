@@ -29,8 +29,7 @@ public final class R {
     public static final int start_message=0x7f030007;
   }
   public static final class layout {
-    public static final int about_this_app=0x7f040000;
-    public static final int activity_main=0x7f040001;
+    public static final int activity_main=0x7f040000;
   }
   public static final class menu {
     public static final int main=0x7f050000;

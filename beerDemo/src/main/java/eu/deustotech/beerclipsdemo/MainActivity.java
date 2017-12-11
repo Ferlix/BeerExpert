@@ -11,8 +11,10 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.Notification;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
@@ -77,10 +79,11 @@ public class MainActivity extends Activity implements NextStateListener {
 	
 	final ExecutorService executor = Executors.newSingleThreadExecutor();
 		
-	Environment clips;	
+	Environment clips;
 	ExpertSystem beerExpertSystem;
 	ExpertTaskFactory taskFactory;
-	
+
+	// Set this string with the name of the folder of the project
 	static final String appRootDirectory = "/beerExpert";
 	
 	private String getResourceString(String label) {
@@ -220,7 +223,6 @@ public class MainActivity extends Activity implements NextStateListener {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
-
 	}
 
 	// Methods for the items in the menu bar
@@ -230,7 +232,21 @@ public class MainActivity extends Activity implements NextStateListener {
         // Handle item selection
         switch (item.getItemId()) {
             case R.id.action_about_this_app:
-                startActivity(new Intent(MainActivity.this, AboutThisApp.class));
+                // Create a pop up message with a button to close it
+                // with information about the app
+                AlertDialog.Builder builderAlert = new AlertDialog.Builder(MainActivity.this);
+                builderAlert.setMessage(R.string.about_this_app);
+                builderAlert.setCancelable(true);
+
+                builderAlert.setNeutralButton(
+                        "OK",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                dialog.cancel();
+                            }
+                        });
+                AlertDialog alertInstance = builderAlert.create();
+                alertInstance.show();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -255,7 +271,6 @@ public class MainActivity extends Activity implements NextStateListener {
 		// Let's ensure that while CLIPS finishes current reasoning,
 		// the GUI will not launch new tasks.
 		setEnabledButtons(false, false, false);
-				
 		this.executor.submit( runnable );
 	}
 
