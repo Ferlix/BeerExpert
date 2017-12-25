@@ -10,9 +10,9 @@ import java.util.Set;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.app.Notification;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -22,7 +22,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ActionMenuView;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -37,6 +36,7 @@ import eu.deustotech.beerclipsdemo.states.UsualState;
 import eu.deustotech.clips.Environment;
 
 
+@SuppressLint("AppCompatCustomView")
 class CustomRadioButton extends RadioButton {
 	final StateChoice choice;
 	
@@ -305,8 +305,13 @@ public class MainActivity extends Activity implements NextStateListener {
 		this.runOnUiThread(
 			new Runnable() {
 				public void run() {
+					// Send the ID of the chosen beer to the new activity to display its info
+					Intent intent = new Intent(MainActivity.this, ShowBeer.class);
+					intent.putExtra("ANSWER", state.getAnswer());
+					startActivity(intent);
+
 					setEnabledButtons(true, true, false);
-					setLabelText( getResourceString( state.getAnswer() ) );
+					setLabelText(" ");
 					setChoices( null );
 				}
 			}

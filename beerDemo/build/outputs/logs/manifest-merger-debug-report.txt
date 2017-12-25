@@ -1,80 +1,122 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:2:1-32:12
-MERGED from [:clipsAndroid] C:\Users\Marco\Documents\GitHub\BeerExpert\clipsAndroid\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-12:12
-INJECTED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:2:1-40:12
+MERGED from [:clipsAndroid] C:\Users\Marco\Desktop\BeerExpert\clipsAndroid\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.4.0.aar\73993758da87d54fb064f8e4af2571cb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\0766ff737b8d4b8a78b9da7923598381\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\e51e29801e627d46cc6112eb14dc2a4b\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\a8d3dd5982cb3bf2c4bc2caeca1a7404\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\df4cf06d2a7e6c696281f40b015cd2ee\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\458792e7af59e56c282eca3635848453\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:2:1-40:12
 	package
-		ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:3:5-42
-		INJECTED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml
+	android:testOnly
+		ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:6:5-29
 	xmlns:android
-		ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml
 uses-sdk
-ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [:clipsAndroid] C:\Users\Marco\Documents\GitHub\BeerExpert\clipsAndroid\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-10:41
-MERGED from [:clipsAndroid] C:\Users\Marco\Documents\GitHub\BeerExpert\clipsAndroid\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-10:41
-INJECTED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:7:5-9:41
+ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:8:5-10:41
+MERGED from [:clipsAndroid] C:\Users\Marco\Desktop\BeerExpert\clipsAndroid\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-10:41
+MERGED from [:clipsAndroid] C:\Users\Marco\Desktop\BeerExpert\clipsAndroid\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-10:41
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.4.0.aar\73993758da87d54fb064f8e4af2571cb\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.4.0.aar\73993758da87d54fb064f8e4af2571cb\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\0766ff737b8d4b8a78b9da7923598381\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\0766ff737b8d4b8a78b9da7923598381\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\e51e29801e627d46cc6112eb14dc2a4b\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\e51e29801e627d46cc6112eb14dc2a4b\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\a8d3dd5982cb3bf2c4bc2caeca1a7404\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\a8d3dd5982cb3bf2c4bc2caeca1a7404\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\df4cf06d2a7e6c696281f40b015cd2ee\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\df4cf06d2a7e6c696281f40b015cd2ee\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\458792e7af59e56c282eca3635848453\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\458792e7af59e56c282eca3635848453\AndroidManifest.xml:20:5-43
+INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:8:5-10:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\0766ff737b8d4b8a78b9da7923598381\AndroidManifest.xml:23:9-75
 	android:debuggable
-		ADDED from [:clipsAndroid] C:\Users\Marco\Documents\GitHub\BeerExpert\clipsAndroid\build\intermediates\manifests\full\debug\AndroidManifest.xml:8:9-34
+		ADDED from [:clipsAndroid] C:\Users\Marco\Desktop\BeerExpert\clipsAndroid\build\intermediates\manifests\full\debug\AndroidManifest.xml:8:9-34
 	android:targetSdkVersion
-		ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:8:9-34
-		INJECTED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:9:9-35
+		INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:11:5-81
+ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:12:5-81
 	android:name
-		ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:11:22-78
+		ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:12:22-78
 uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
-ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:12:5-83
+ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:13:5-83
 	android:name
-		ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:12:22-81
+		ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:13:22-81
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:13:2-77
+ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:14:2-77
 	android:name
-		ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:13:19-74
+		ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:14:19-74
 application
-ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:15:5-30:19
+ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:16:5-38:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\0766ff737b8d4b8a78b9da7923598381\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\0766ff737b8d4b8a78b9da7923598381\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\e51e29801e627d46cc6112eb14dc2a4b\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\e51e29801e627d46cc6112eb14dc2a4b\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\a8d3dd5982cb3bf2c4bc2caeca1a7404\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\a8d3dd5982cb3bf2c4bc2caeca1a7404\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\df4cf06d2a7e6c696281f40b015cd2ee\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\df4cf06d2a7e6c696281f40b015cd2ee\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\458792e7af59e56c282eca3635848453\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\458792e7af59e56c282eca3635848453\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:17:9-41
+		ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:18:9-41
 	android:icon
-		ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:18:9-50
+		ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:19:9-50
 	android:allowBackup
-		ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:16:9-35
+		ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:17:9-35
 activity#eu.deustotech.beerclipsdemo.MainActivity
-ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:20:9-29:20
+ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:21:9-29:20
 	android:label
-		ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:22:13-45
+		ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:23:13-45
 	android:theme
-		ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:23:13-44
+		ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:24:13-44
 	android:name
-		ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:21:13-68
+		ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:22:13-68
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:24:13-28:29
+ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:25:13-28:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:25:17-69
+ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:25:25-66
+		ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:27:17-77
+ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from C:\Users\Marco\Documents\GitHub\BeerExpert\beerDemo\src\main\AndroidManifest.xml:27:27-74
+		ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:27:27-74
+activity#eu.deustotech.beerclipsdemo.ShowBeer
+ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:30:9-37:20
+	android:label
+		ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:32:13-45
+	android:theme
+		ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:33:13-44
+	android:name
+		ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:31:13-64
+intent-filter#android.intent.category.LAUNCHER
+ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:34:13-36:29
