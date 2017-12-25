@@ -6,11 +6,15 @@ The *BeerExpert* is a project created to include `CLIPS <http://clipsrules.sourc
 
 The project is organized as follows:
 
+BeerExpert
+  It is an application embedding an expert system specialized in beers and in brewing beers. It gives suggestions based on the user preference. It contains the rules and the facts (in the folder assets) necessary to make inference with forward chaining. 
+  
+APK
+  It's the folder containing the APK file for the installation of the application on your phone. To install it, just open this file on an Android device. 
+
 ClipsAndroid
   It is an Android library which is intended to be used by other Android applications. To compile the project with Android Studio, it is necessary to compile the CLIPS module for Android first (see `Compiling CLIPS for Android`_.).
 
-BeerExpert
-  It is an application embedding an expert system specialized in beers and in brewing beers. It gives suggestions based on the user preference.
 
 Compiling CLIPS for Android
 ---------------------------
