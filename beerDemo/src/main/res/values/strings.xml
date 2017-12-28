@@ -10,4 +10,9 @@
         Knowledge Technology Practical at the University of Groningen. \n \n \n
         This version is a prototype, and it does not reflect the properties
         of the final project.</string>
+
+    <string name="beer_type">Type of beer:</string>
+    <string name="beer_colour">Colour:</string>
+    <string name="beer_flavour">Flavour:</string>
+    <string name="beer_ingredients">Special ingredients:</string>
 </resources>

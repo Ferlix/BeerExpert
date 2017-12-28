@@ -20,13 +20,13 @@
           (then beer.type is blonde.lager))
     (rule (if flavour is fruity and
                         blonde is no)
-           (then beer.type is dark.lager))
+           (then beer.type is faro))
     (question (variable blonde)
                   (query blonde.query))
 
     (rule (if flavour is dry and
                     blonde is yes)
-          (then beer.type is blonde.ale))
+          (then beer.type is pale.ale))
     (rule (if flavour is dry and
                     blonde is no)
           (then beer.type is dark.ale))

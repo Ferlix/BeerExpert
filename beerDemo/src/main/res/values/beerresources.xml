@@ -14,8 +14,18 @@
 <string name="fruity.query">Do you prefer fuity beers over dry ones?</string>
 <string name="blonde.query">Do you prefer blonde beers over dark ones?</string>
 
-<string name="dark.lager">You should brew a dark Lager!</string>
-<string name="blonde.lager">You should brew a blonde Lager</string>
-    <string name="dark.ale">You should brew a dark Ale</string>
-    <string name="blonde.ale">You should brew a blonde Ale</string>
+    <string name="blonde.lager">blonde.lager</string>
+    <string name="faro">faro</string>
+    <string name="pale.ale">pale.ale</string>
+    <string name="dark.ale">dark.ale</string>
+
+    <string name="kriek">kriek</string>
+    <string name="gueuze">gueuze</string>
+    <string name="bock">bock</string>
+    <string name="india.pale.lager">india.lager</string>
+    <string name="blonde.trappist">blonde.trappist</string>
+    <string name="dubbel.trappist">dubbel.trappist</string>
+    <string name="triple.trappist">triple.trappist</string>
+    <string name="wheat.ale">wheat.ale</string>
+    <string name="english.ipa">english.ipa</string>
 </resources>

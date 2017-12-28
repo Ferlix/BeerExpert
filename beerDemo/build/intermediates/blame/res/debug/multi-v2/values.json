@@ -6,9 +6,11 @@
                 {
                     "source": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\src\\main\\res\\values\\dimens.xml",
                     "from": {
-                        "startLines": "-1,-1",
-                        "startColumns": "-1,-1",
-                        "startOffsets": "-1,-1"
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "89,147",
+                        "endColumns": "57,55",
+                        "endOffsets": "142,198"
                     },
                     "to": {
                         "startLines": "6,7",
@@ -21,78 +23,24 @@
                 {
                     "source": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "-1,-1",
-                        "startColumns": "-1,-1",
-                        "startOffsets": "-1,-1"
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "186,503",
+                        "endLines": "12,19",
+                        "endColumns": "12,12",
+                        "endOffsets": "465,777"
                     },
                     "to": {
-                        "startLines": "34,38",
+                        "startLines": "47,54",
                         "startColumns": "4,4",
-                        "startOffsets": "1856,1940",
-                        "endLines": "37,42",
+                        "startOffsets": "2440,2724",
+                        "endLines": "53,58",
                         "endColumns": "12,12",
-                        "endOffsets": "1935,2091"
+                        "endOffsets": "2719,2998"
                     }
                 },
                 {
                     "source": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,101,151,202",
-                        "endColumns": "45,49,50,48",
-                        "endOffsets": "96,146,197,246"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "-1,-1,2,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,4,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,55,-1,-1,-1,-1",
-                        "endColumns": "-1,-1,55,-1,-1,-1,-1",
-                        "endOffsets": "-1,-1,106,-1,-1,-1,-1"
-                    },
-                    "to": {
-                        "startLines": "18,22,23,30,31,32,33",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "852,1128,1193,1688,1726,1772,1816",
-                        "endLines": "21,22,23,30,31,32,33",
-                        "endColumns": "38,64,55,37,45,43,39",
-                        "endOffsets": "1123,1188,1244,1721,1767,1811,1851"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\src\\main\\res\\values\\beerresources.xml",
-                    "from": {
-                        "startLines": "-1,-1,-1,-1,-1,8,-1,-1,-1,-1,-1,-1,13",
-                        "startColumns": "-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,0",
-                        "startOffsets": "-1,-1,-1,-1,-1,264,-1,-1,-1,-1,-1,-1,511",
-                        "endLines": "-1,-1,-1,-1,-1,11,-1,-1,-1,-1,-1,-1,13",
-                        "endColumns": "-1,-1,-1,-1,-1,25,-1,-1,-1,-1,-1,-1,77",
-                        "endOffsets": "-1,-1,-1,-1,-1,509,-1,-1,-1,-1,-1,-1,588"
-                    },
-                    "to": {
-                        "startLines": "8,9,10,11,12,13,17,24,25,26,27,28,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "365,412,450,484,522,566,816,1249,1317,1389,1473,1537,1606",
-                        "endLines": "8,9,10,11,12,16,17,24,25,26,27,28,29",
-                        "endColumns": "46,37,33,37,43,25,35,67,71,83,63,68,81",
-                        "endOffsets": "407,445,479,517,561,811,847,1312,1384,1468,1532,1601,1683"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "5,3,4,2",
                         "startColumns": "4,4,4,4",
@@ -109,77 +57,41 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\values\\dimens.xml",
+                    "source": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "3,4",
-                        "startColumns": "4,4",
-                        "startOffsets": "89,147",
-                        "endColumns": "57,55",
-                        "endOffsets": "142,198"
+                        "startLines": "8,3,2,14,15,16,13,6,5,4,7",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "344,111,55,673,721,771,621,266,220,176,304",
+                        "endLines": "11,3,2,14,15,16,13,6,5,4,7",
+                        "endColumns": "38,64,55,47,49,65,51,37,45,43,39",
+                        "endOffsets": "615,171,106,716,766,832,668,299,261,215,339"
                     },
                     "to": {
-                        "startLines": "6,7",
-                        "startColumns": "4,4",
-                        "startOffsets": "251,309",
-                        "endColumns": "57,55",
-                        "endOffsets": "304,360"
+                        "startLines": "18,22,23,24,25,26,27,40,42,43,44",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "852,1128,1193,1249,1297,1347,1413,2118,2202,2248,2292",
+                        "endLines": "21,22,23,24,25,26,27,40,42,43,44",
+                        "endColumns": "38,64,55,47,49,65,51,37,45,43,39",
+                        "endOffsets": "1123,1188,1244,1292,1342,1408,1460,2151,2243,2287,2327"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\src\\main\\res\\values\\beerresources.xml",
                     "from": {
-                        "startLines": "8,3,2,6,5,4,7",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "344,111,55,266,220,176,304",
-                        "endLines": "11,3,2,6,5,4,7",
-                        "endColumns": "38,64,55,37,45,43,39",
-                        "endOffsets": "615,171,106,299,261,215,339"
+                        "startLines": "2,5,3,6,7,8,4,16,14,25,23,19,26,29,17,13,22,24,21,18,27,28",
+                        "startColumns": "0,0,0,0,0,0,0,4,0,4,4,4,4,4,4,0,4,4,4,4,4,4",
+                        "startOffsets": "51,156,94,190,224,264,124,674,589,1036,941,812,1096,1264,728,511,899,979,859,766,1156,1216",
+                        "endLines": "2,5,3,6,7,11,4,16,14,25,23,19,26,29,17,13,22,24,21,18,27,28",
+                        "endColumns": "42,33,29,33,39,25,31,53,79,59,37,45,59,51,37,77,41,56,39,45,59,47",
+                        "endOffsets": "93,189,123,223,263,509,155,723,668,1091,974,853,1151,1311,761,588,936,1031,894,807,1211,1259"
                     },
                     "to": {
-                        "startLines": "18,22,23,30,31,32,33",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "852,1128,1193,1688,1726,1772,1816",
-                        "endLines": "21,22,23,30,31,32,33",
-                        "endColumns": "38,64,55,37,45,43,39",
-                        "endOffsets": "1123,1188,1244,1721,1767,1811,1851"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "6,15",
-                        "startColumns": "4,4",
-                        "startOffsets": "186,503",
-                        "endLines": "12,19",
-                        "endColumns": "12,12",
-                        "endOffsets": "465,777"
-                    },
-                    "to": {
-                        "startLines": "34,41",
-                        "startColumns": "4,4",
-                        "startOffsets": "1856,2140",
-                        "endLines": "40,45",
-                        "endColumns": "12,12",
-                        "endOffsets": "2135,2414"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\values\\beerresources.xml",
-                    "from": {
-                        "startLines": "2,5,3,6,7,8,4,19,17,14,18,16,13",
-                        "startColumns": "0,0,0,0,0,0,0,4,0,0,4,0,0",
-                        "startOffsets": "51,156,94,190,224,264,124,871,735,589,807,670,511",
-                        "endLines": "2,5,3,6,7,11,4,19,17,14,18,16,13",
-                        "endColumns": "42,33,29,33,39,25,31,67,67,79,63,64,77",
-                        "endOffsets": "93,189,123,223,263,509,155,934,802,668,866,734,588"
-                    },
-                    "to": {
-                        "startLines": "8,9,10,11,12,13,17,24,25,26,27,28,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "365,412,450,484,522,566,816,1249,1317,1389,1473,1537,1606",
-                        "endLines": "8,9,10,11,12,16,17,24,25,26,27,28,29",
-                        "endColumns": "46,37,33,37,43,25,35,67,71,83,63,68,81",
-                        "endOffsets": "407,445,479,517,561,811,847,1312,1384,1468,1532,1601,1683"
+                        "startLines": "8,9,10,11,12,13,17,28,29,30,31,32,33,34,35,36,37,38,39,41,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "365,412,450,484,522,566,816,1465,1519,1603,1663,1701,1747,1807,1859,1897,1979,2021,2078,2156,2332,2392",
+                        "endLines": "8,9,10,11,12,16,17,28,29,30,31,32,33,34,35,36,37,38,39,41,45,46",
+                        "endColumns": "46,37,33,37,43,25,35,53,83,59,37,45,59,51,37,81,41,56,39,45,59,47",
+                        "endOffsets": "407,445,479,517,561,811,847,1514,1598,1658,1696,1742,1802,1854,1892,1974,2016,2073,2113,2197,2387,2435"
                     }
                 }
             ]
