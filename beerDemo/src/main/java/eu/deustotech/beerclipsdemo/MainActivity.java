@@ -1,40 +1,6 @@
 package eu.deustotech.beerclipsdemo;
 
-<<<<<<< HEAD
-		import java.io.File;
-		import java.io.FileNotFoundException;
-		import java.io.FileOutputStream;
-		import java.io.IOException;
-		import java.io.InputStream;
-		import java.io.OutputStream;
-		import java.util.Set;
-		import java.util.concurrent.ExecutorService;
-		import java.util.concurrent.Executors;
 
-		import android.app.Activity;
-		import android.app.AlertDialog;
-		import android.content.Context;
-		import android.content.DialogInterface;
-		import android.content.Intent;
-		import android.content.res.ColorStateList;
-		import android.graphics.Color;
-		import android.os.Bundle;
-		import android.view.Menu;
-		import android.view.MenuItem;
-		import android.view.View;
-		import android.widget.Button;
-		import android.widget.RadioButton;
-		import android.widget.RadioGroup;
-		import android.widget.TextView;
-		import eu.deustotech.beerclipsdemo.logic.ExpertSystem;
-		import eu.deustotech.beerclipsdemo.logic.ExpertTaskFactory;
-		import eu.deustotech.beerclipsdemo.states.FinalState;
-		import eu.deustotech.beerclipsdemo.states.InitialState;
-		import eu.deustotech.beerclipsdemo.states.NextStateListener;
-		import eu.deustotech.beerclipsdemo.states.StateChoice;
-		import eu.deustotech.beerclipsdemo.states.UsualState;
-		import eu.deustotech.clips.Environment;
-=======
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -45,7 +11,6 @@ import java.util.Set;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
@@ -69,10 +34,8 @@ import eu.deustotech.beerclipsdemo.states.NextStateListener;
 import eu.deustotech.beerclipsdemo.states.StateChoice;
 import eu.deustotech.beerclipsdemo.states.UsualState;
 import eu.deustotech.clips.Environment;
->>>>>>> 8b8e23c87ddc31749f0742560f86518370f229dd
 
 
-@SuppressLint("AppCompatCustomView")
 class CustomRadioButton extends RadioButton {
 	final StateChoice choice;
 

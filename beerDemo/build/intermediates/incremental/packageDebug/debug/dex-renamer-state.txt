@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#Thu Dec 28 18:23:01 GMT+01:00 2017
-=======
-#Mon Dec 25 15:46:49 GMT+01:00 2017
->>>>>>> 8b8e23c87ddc31749f0742560f86518370f229dd
-base.0=C\:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Thu Dec 28 18:39:01 GMT+01:00 2017
+base.0=C\:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex
