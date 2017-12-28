@@ -8,6 +8,7 @@ import android.widget.TextView;
 // The ID of the beer is sent from the main activity
 public class ShowBeer extends Activity  {
 
+<<<<<<< HEAD
     String beerID;
     String nameBeer;
     String typeBeer;
@@ -44,6 +45,18 @@ public class ShowBeer extends Activity  {
         flavour.setText(flavourBeer);
 
         databaseAccess.close();
+=======
+    String beerName;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.beer_information);
+        beerName = getIntent().getStringExtra("ANSWER");
+
+        TextView name = (TextView) findViewById(R.id.beerNameView);
+        name.setText(beerName);
+>>>>>>> 8b8e23c87ddc31749f0742560f86518370f229dd
     }
 
 }

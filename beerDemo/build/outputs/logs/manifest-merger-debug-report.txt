@@ -5,7 +5,16 @@ INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifes
 INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:2:1-40:12
 INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:2:1-40:12
 MERGED from [:clipsAndroid] C:\Users\Marco\Desktop\BeerExpert\clipsAndroid\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-12:12
+<<<<<<< HEAD
 MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\90eee8ea5e8ac1711f5bb21a60a9449d\AndroidManifest.xml:14:4-17:12
+=======
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.4.0.aar\73993758da87d54fb064f8e4af2571cb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\0766ff737b8d4b8a78b9da7923598381\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\e51e29801e627d46cc6112eb14dc2a4b\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\a8d3dd5982cb3bf2c4bc2caeca1a7404\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\df4cf06d2a7e6c696281f40b015cd2ee\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\458792e7af59e56c282eca3635848453\AndroidManifest.xml:17:1-24:12
+>>>>>>> 8b8e23c87ddc31749f0742560f86518370f229dd
 INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:2:1-40:12
 INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:2:1-40:12
 INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:2:1-40:12
@@ -31,10 +40,29 @@ INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifes
 INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:8:5-10:41
 MERGED from [:clipsAndroid] C:\Users\Marco\Desktop\BeerExpert\clipsAndroid\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-10:41
 MERGED from [:clipsAndroid] C:\Users\Marco\Desktop\BeerExpert\clipsAndroid\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-10:41
+<<<<<<< HEAD
 MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\90eee8ea5e8ac1711f5bb21a60a9449d\AndroidManifest.xml:15:5-42
 MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\90eee8ea5e8ac1711f5bb21a60a9449d\AndroidManifest.xml:15:5-42
 INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:8:5-10:41
 INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:8:5-10:41
+=======
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.4.0.aar\73993758da87d54fb064f8e4af2571cb\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.4.0.aar\73993758da87d54fb064f8e4af2571cb\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\0766ff737b8d4b8a78b9da7923598381\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\0766ff737b8d4b8a78b9da7923598381\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\e51e29801e627d46cc6112eb14dc2a4b\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\e51e29801e627d46cc6112eb14dc2a4b\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\a8d3dd5982cb3bf2c4bc2caeca1a7404\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\a8d3dd5982cb3bf2c4bc2caeca1a7404\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\df4cf06d2a7e6c696281f40b015cd2ee\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\df4cf06d2a7e6c696281f40b015cd2ee\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\458792e7af59e56c282eca3635848453\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\458792e7af59e56c282eca3635848453\AndroidManifest.xml:20:5-43
+INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:8:5-10:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\0766ff737b8d4b8a78b9da7923598381\AndroidManifest.xml:23:9-75
+>>>>>>> 8b8e23c87ddc31749f0742560f86518370f229dd
 	android:debuggable
 		ADDED from [:clipsAndroid] C:\Users\Marco\Desktop\BeerExpert\clipsAndroid\build\intermediates\manifests\full\debug\AndroidManifest.xml:8:9-34
 	android:targetSdkVersion
@@ -59,8 +87,21 @@ ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.x
 		ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:14:19-74
 application
 ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:16:5-38:19
+<<<<<<< HEAD
 MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\90eee8ea5e8ac1711f5bb21a60a9449d\AndroidManifest.xml:16:5-19
 MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\90eee8ea5e8ac1711f5bb21a60a9449d\AndroidManifest.xml:16:5-19
+=======
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\0766ff737b8d4b8a78b9da7923598381\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\0766ff737b8d4b8a78b9da7923598381\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\e51e29801e627d46cc6112eb14dc2a4b\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\e51e29801e627d46cc6112eb14dc2a4b\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\a8d3dd5982cb3bf2c4bc2caeca1a7404\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\a8d3dd5982cb3bf2c4bc2caeca1a7404\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\df4cf06d2a7e6c696281f40b015cd2ee\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\df4cf06d2a7e6c696281f40b015cd2ee\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\458792e7af59e56c282eca3635848453\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.4.0] C:\Users\Marco\.gradle\caches\transforms-1\files-1.1\cardview-v7-23.4.0.aar\458792e7af59e56c282eca3635848453\AndroidManifest.xml:22:5-20
+>>>>>>> 8b8e23c87ddc31749f0742560f86518370f229dd
 	android:label
 		ADDED from C:\Users\Marco\Desktop\BeerExpert\beerDemo\src\main\AndroidManifest.xml:18:9-41
 	android:icon
