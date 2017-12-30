@@ -18,14 +18,14 @@ ClipsAndroid
 
 Compiling CLIPS for Android
 ---------------------------
-If the compiler does not run the app immediately, you might have to compile CLIPS first (it should be already built in anyway). 
-Follow the following steps to compile the CLIPS module written in C for Android:
+To compile the app in Android Studio, it's necessary to compile CLIPS first (it should be already compiled anyway). 
+Follow the following steps to compile the CLIPS module, written in C:
 
 *Compiling CLIPS from Android Studio*
  1. Open the SDK manager in Android Studio
  2. Go to the SDK tools section
- 3. Check the boxes next to NDK, LLDB and C-make and apply the changes clicking OK
- 4. Link the C module (the folder ClipsAndroid) with Gradle in the project explorer pane
+ 3. Check the boxes next to NDK, LLDB and C-make and apply the changes to download them clicking OK
+ 4. Link the C module (the folder ClipsAndroid) with Gradle in the project explorer pane (with right-click)
  5. Select the file Android.mk to be build with ndk-build 
  6. Clean the environment and build the app
 
@@ -42,8 +42,7 @@ Debugging CLIPS on Android
 --------------------------
 
 The cleanest way to show messages from a native library in Android is by simply redirecting its output (see `Redirecting stdout`_).
-However, this method has not always work for me (sorry, I don't know the cause).
-That's why I forced CLIPS to show all its messages using Logcat (see `Logcat from native code`_).
+The CLIPS' module is forced to show all its messages using Logcat (see `Logcat from native code`_).
 
 
 Redirecting stdout
