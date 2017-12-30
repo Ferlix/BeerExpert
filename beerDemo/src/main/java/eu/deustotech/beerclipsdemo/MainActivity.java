@@ -82,7 +82,7 @@ public class MainActivity extends Activity implements NextStateListener {
 	ExpertSystem beerExpertSystem;
 	ExpertTaskFactory taskFactory;
 
-	static final String appRootDirectory = "/beerExpert";
+	static final String appRootDirectory = "/data/data/BeerExpert";
 
 	private String getResourceString(String label) {
 		return getString( getResources().getIdentifier( label, "string", getBaseContext().getPackageName() ) );

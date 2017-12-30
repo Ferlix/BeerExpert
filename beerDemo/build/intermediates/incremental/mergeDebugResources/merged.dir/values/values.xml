@@ -11,9 +11,9 @@
     <string name="No">No</string>
     <string name="Prev">Prev</string>
     <string name="Restart">Restart</string>
-    <string name="WelcomeMessage">Hello world! \n \n \nWelcome to the Brew Expert System! \n
+    <string name="WelcomeMessage">Welcome to the Brew Expert System! \n
     This wise application can tell you what\'s the perfect beer for you,
-   giving you also the needed ingredients for brewing it.
+   giving you also the needed ingredients for brewing it. \n \n
     Test it out!</string>
     <string name="Yes">Yes</string>
     <string name="about_this_app">This expert system is developed for the course
@@ -22,10 +22,10 @@
         of the final project.</string>
     <string name="action_about_this_app">About this app</string>
     <string name="app_name">BrewExpert (CLIPS)</string>
-    <string name="beer_colour">Colour:</string>
-    <string name="beer_flavour">Flavour:</string>
-    <string name="beer_ingredients">Special ingredients:</string>
-    <string name="beer_type">Type of beer:</string>
+    <string name="beer_colour">Colour</string>
+    <string name="beer_flavour">Flavour</string>
+    <string name="beer_ingredients">Special ingredients</string>
+    <string name="beer_type">Type of beer</string>
     <string name="blonde.lager">blonde.lager</string>
     <string name="blonde.query">Do you prefer blonde beers over dark ones?</string>
     <string name="blonde.trappist">blonde.trappist</string>
@@ -46,15 +46,12 @@
     <string name="triple.trappist">triple.trappist</string>
     <string name="wheat.ale">wheat.ale</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here. -->
+        
 
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
-        <!-- Customize your theme here. -->
+        
+        
         <item name="android:colorBackground">@color/colorBackground</item>
     </style>
 </resources>

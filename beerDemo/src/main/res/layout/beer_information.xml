@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16dp"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/beerNameView"
@@ -43,7 +45,7 @@
         android:layout_alignLeft="@+id/typeBeerView"
         android:layout_alignStart="@+id/typeBeerView"
         android:layout_below="@+id/typeBeerView"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="16dp"
         android:text="@string/beer_colour" />
 
     <TextView
@@ -63,7 +65,7 @@
         android:layout_alignLeft="@+id/colourBeerView"
         android:layout_alignStart="@+id/colourBeerView"
         android:layout_below="@+id/colourBeerView"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:text="@string/beer_flavour" />
 
     <TextView
@@ -83,7 +85,7 @@
         android:layout_alignLeft="@+id/flavourBeer"
         android:layout_alignStart="@+id/flavourBeer"
         android:layout_below="@+id/flavourBeer"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="16dp"
         android:text="@string/beer_ingredients" />
 
     <TextView

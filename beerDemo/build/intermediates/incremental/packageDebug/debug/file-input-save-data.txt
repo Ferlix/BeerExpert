@@ -1,19 +1,19 @@
 #Internal package file, do not edit.
-#Thu Dec 28 18:44:42 GMT+01:00 2017
+#Sat Dec 30 15:20:37 GMT+01:00 2017
 7.path=lib/x86/libclips.so
-2.base=C\:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+2.base=C\:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\assets\\debug
 5.set=ASSET
-0.path=databases/beersDatabase.db.zip
+0.path=lib/x86/libclipsdroid.so
 2.baseType=DIRECTORY
 3.base=C\:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
 7.baseType=DIRECTORY
-2.set=NATIVE_RESOURCE
-1.path=lib/x86/libclipsdroid.so
+2.set=ASSET
+1.path=lib/armeabi-v7a/libclipsdroid.so
 4.base=C\:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\assets\\debug
 7.set=NATIVE_RESOURCE
 count=8
 5.baseType=DIRECTORY
-2.path=lib/armeabi-v7a/libclipsdroid.so
+2.path=databases/beersDatabase.zip
 5.base=C\:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\assets\\debug
 4.set=ASSET
 3.path=lib/armeabi-v7a/libclips.so
@@ -26,10 +26,10 @@ count=8
 1.baseType=DIRECTORY
 6.baseType=DIRECTORY
 5.path=beerdemo.clp
-0.base=C\:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\assets\\debug
+0.base=C\:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
 0.baseType=DIRECTORY
 3.set=NATIVE_RESOURCE
 6.path=classes.dex
 1.base=C\:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
 4.baseType=DIRECTORY
-0.set=ASSET
+0.set=NATIVE_RESOURCE
