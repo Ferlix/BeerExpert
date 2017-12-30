@@ -1,4 +1,4 @@
-BeerExpert (CLIPS for Android)
+BrewExpert (CLIPS for Android)
 ==============
 
 The *BeerExpert* is a project created to include `CLIPS <http://clipsrules.sourceforge.net/>`_ to Android, encapsulating the knowledge elicited from a beer brewer.
