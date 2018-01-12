@@ -2,6 +2,7 @@ package eu.deustotech.beerclipsdemo;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 // Activity to display the information about the chosen beer
@@ -75,11 +76,11 @@ public class ShowBeer extends Activity  {
         TextView fermentationTitle = (TextView) findViewById(R.id.fermentationTitle);
         TextView extrasTitle = (TextView) findViewById(R.id.extrasTitle);
 
-        if(grain.getText().length() == 0) grainTitle.setText(null);
-        if(yeast.getText().length() == 0) yeastTitle.setText(null);
-        if(hop.getText().length() == 0) hopTitle.setText(null);
-        if(fermentation.getText().length() == 0) fermentationTitle.setText(null);
-        if(extras.getText().length() == 0) extrasTitle.setText(null);
+        if(grain.getText().length() == 0) grainTitle.setVisibility(View.GONE);
+        if(yeast.getText().length() == 0) yeastTitle.setVisibility(View.GONE);
+        if(hop.getText().length() == 0) hopTitle.setVisibility(View.GONE);
+        if(fermentation.getText().length() == 0) fermentationTitle.setVisibility(View.GONE);
+        if(extras.getText().length() == 0) extrasTitle.setVisibility(View.GONE);
 
         databaseAccess.close();
     }
