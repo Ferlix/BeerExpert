@@ -11,8 +11,13 @@
    giving you also the needed ingredients for brewing it. \n \n
     Test it out!</string>
 
-<string name="fruity.query">Do you prefer fuity beers over dry ones?</string>
-<string name="blonde.query">Do you prefer blonde beers over dark ones?</string>
+    <string name="advanced.query">Do you have much experience brewing?</string>
+    <string name="sweetness.query">Do you prefer sweeter beers?</string>
+    <string name="fruity.query">Do you prefer fruity beers over dry ones?</string>
+    <string name="blonde.query">Do you prefer blonde beers over dark ones?</string>
+    <string name="dark.colour.query">Do you prefer darker beers?</string>
+    <string name="hops.query">Do you prefer hoppy beers?</string>
+    <string name="fruit.query">IDIOT</string>
 
     <string name="blonde.lager">blonde.lager</string>
     <string name="faro">faro</string>

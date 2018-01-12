@@ -1,107 +1,107 @@
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/clips/clips/inspsr.o: \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/inspsr.c \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/setup.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/envrnmnt.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/symbol.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/usrsetup.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/classcom.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/cstrccom.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/moduldef.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/conscomp.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/constrct.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/userdata.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/evaluatn.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/constant.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/expressn.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/exprnops.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/exprnpsr.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/extnfunc.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/scanner.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/pprint.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/symblcmp.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/modulpsr.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/utility.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/object.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/constrnt.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/multifld.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/match.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/network.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/ruledef.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/agenda.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/pattern.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/reorder.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/classfun.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/classinf.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/prntutil.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/router.h \
-  C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/inspsr.h
+/home/user/Desktop/BeerExpert-master/clipsAndroid/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/objs-debug/clips/clips/inspsr.o: \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/inspsr.c \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/setup.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/envrnmnt.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/symbol.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/usrsetup.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/classcom.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/cstrccom.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/moduldef.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/conscomp.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/constrct.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/userdata.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/evaluatn.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/constant.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/expressn.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/exprnops.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/exprnpsr.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/extnfunc.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/scanner.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/pprint.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/symblcmp.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/modulpsr.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/utility.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/object.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/constrnt.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/multifld.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/match.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/network.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/ruledef.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/agenda.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/pattern.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/reorder.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/classfun.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/classinf.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/prntutil.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/router.h \
+  /home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/inspsr.h
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/setup.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/setup.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/envrnmnt.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/envrnmnt.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/symbol.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/symbol.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/usrsetup.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/usrsetup.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/classcom.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/classcom.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/cstrccom.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/cstrccom.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/moduldef.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/moduldef.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/conscomp.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/conscomp.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/constrct.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/constrct.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/userdata.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/userdata.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/evaluatn.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/evaluatn.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/constant.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/constant.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/expressn.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/expressn.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/exprnops.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/exprnops.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/exprnpsr.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/exprnpsr.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/extnfunc.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/extnfunc.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/scanner.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/scanner.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/pprint.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/pprint.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/symblcmp.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/symblcmp.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/modulpsr.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/modulpsr.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/utility.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/utility.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/object.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/object.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/constrnt.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/constrnt.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/multifld.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/multifld.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/match.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/match.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/network.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/network.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/ruledef.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/ruledef.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/agenda.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/agenda.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/pattern.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/pattern.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/reorder.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/reorder.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/classfun.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/classfun.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/classinf.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/classinf.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/prntutil.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/prntutil.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/router.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/router.h:
 
-C:/Users/Marco/Documents/GitHub/BeerExpert/clipsAndroid/src/main/jni/clips/inspsr.h:
+/home/user/Desktop/BeerExpert-master/clipsAndroid/src/main/jni/clips/inspsr.h:

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/user/Desktop/BeerExpert-master/clipsAndroid/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="8"
+        optimize="true"
+        revision="27.0.1"
+        sha1="42f5954183b50dc245eac18a238bab5263923bc4">
+        <dex dex="/home/user/Desktop/BeerExpert-master/beerDemo/build/intermediates/transforms/preDex/release/3.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/user/Desktop/BeerExpert-master/beerDemo/build/intermediates/res/merged/release/mipmap-mdpi_beer_icon_launcher.png.flat",
+        "source": "/home/user/Desktop/BeerExpert-master/beerDemo/src/main/res/mipmap-mdpi/beer_icon_launcher.png"
+    },
+    {
+        "merged": "/home/user/Desktop/BeerExpert-master/beerDemo/build/intermediates/res/merged/release/mipmap-xxxhdpi_beer_icon_launcher.png.flat",
+        "source": "/home/user/Desktop/BeerExpert-master/beerDemo/src/main/res/mipmap-xxxhdpi/beer_icon_launcher.png"
+    },
+    {
+        "merged": "/home/user/Desktop/BeerExpert-master/beerDemo/build/intermediates/res/merged/release/layout_beer_information.xml.flat",
+        "source": "/home/user/Desktop/BeerExpert-master/beerDemo/src/main/res/layout/beer_information.xml"
+    },
+    {
+        "merged": "/home/user/Desktop/BeerExpert-master/beerDemo/build/intermediates/res/merged/release/menu_main.xml.flat",
+        "source": "/home/user/Desktop/BeerExpert-master/beerDemo/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/home/user/Desktop/BeerExpert-master/beerDemo/build/intermediates/res/merged/release/mipmap-xhdpi_beer_icon_launcher.png.flat",
+        "source": "/home/user/Desktop/BeerExpert-master/beerDemo/src/main/res/mipmap-xhdpi/beer_icon_launcher.png"
+    },
+    {
+        "merged": "/home/user/Desktop/BeerExpert-master/beerDemo/build/intermediates/res/merged/release/mipmap-hdpi_beer_icon_launcher.png.flat",
+        "source": "/home/user/Desktop/BeerExpert-master/beerDemo/src/main/res/mipmap-hdpi/beer_icon_launcher.png"
+    },
+    {
+        "merged": "/home/user/Desktop/BeerExpert-master/beerDemo/build/intermediates/res/merged/release/mipmap-xxhdpi_beer_icon_launcher.png.flat",
+        "source": "/home/user/Desktop/BeerExpert-master/beerDemo/src/main/res/mipmap-xxhdpi/beer_icon_launcher.png"
+    },
+    {
+        "merged": "/home/user/Desktop/BeerExpert-master/beerDemo/build/intermediates/res/merged/release/layout_activity_main.xml.flat",
+        "source": "/home/user/Desktop/BeerExpert-master/beerDemo/src/main/res/layout/activity_main.xml"
+    }
+]

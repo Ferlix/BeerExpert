@@ -21,6 +21,7 @@
         This version is a prototype, and it does not reflect the properties
         of the final project.</string>
     <string name="action_about_this_app">About this app</string>
+    <string name="advanced.query">Do you have much experience brewing?</string>
     <string name="app_name">BrewExpert (CLIPS)</string>
     <string name="beer_colour">Colour</string>
     <string name="beer_flavour">Flavour</string>
@@ -31,11 +32,14 @@
     <string name="blonde.trappist">blonde.trappist</string>
     <string name="bock">bock</string>
     <string name="dark.ale">dark.ale</string>
+    <string name="dark.colour.query">Do you prefer darker beers?</string>
     <string name="dubbel.trappist">dubbel.trappist</string>
     <string name="english.ipa">english.ipa</string>
     <string name="faro">faro</string>
-    <string name="fruity.query">Do you prefer fuity beers over dry ones?</string>
+    <string name="fruit.query">IDIOT</string>
+    <string name="fruity.query">Do you prefer fruity beers over dry ones?</string>
     <string name="gueuze">gueuze</string>
+    <string name="hops.query">Do you prefer hoppy beers?</string>
     <string name="india.pale.lager">india.lager</string>
     <string name="kriek">kriek</string>
     <string name="next">Next</string>
@@ -43,6 +47,7 @@
     <string name="previous">Previous</string>
     <string name="restart">Restart</string>
     <string name="start">Start</string>
+    <string name="sweetness.query">Do you prefer sweeter beers?</string>
     <string name="triple.trappist">triple.trappist</string>
     <string name="wheat.ale">wheat.ale</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">

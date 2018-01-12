@@ -35,31 +35,12 @@
         android:layout_marginStart="75dp"
         android:layout_marginTop="98dp"
         android:orientation="vertical">
-        <!--
-        <RadioButton
-            android:id="@+id/radio0"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="RadioButton" />
 
-        <RadioButton
-            android:id="@+id/radio1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="RadioButton" />
-
-        <RadioButton
-            android:id="@+id/radio2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="RadioButton" />
-        -->
     </RadioGroup>
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true">
@@ -70,7 +51,8 @@
             android:layout_height="wrap_content"
             android:enabled="false"
             android:onClick="onClickRestart"
-            android:text="@string/restart" />
+            android:drawableLeft="@android:drawable/ic_menu_rotate"
+            android:drawablePadding="6dp"/>
 
         <Button
             android:id="@+id/btnPrevious"
@@ -78,14 +60,17 @@
             android:layout_height="wrap_content"
             android:enabled="false"
             android:onClick="onClickPrevious"
-            android:text="@string/previous" />
+            android:drawableRight="@android:drawable/ic_media_previous"
+            android:drawablePadding="6dp"/>
 
         <Button
             android:id="@+id/btnNext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onClickNext"
-            android:text="@string/next" />
+            android:drawableRight="@android:drawable/ic_media_next"
+            android:drawablePadding="6dp"
+            />
     </LinearLayout>
 
 </RelativeLayout>

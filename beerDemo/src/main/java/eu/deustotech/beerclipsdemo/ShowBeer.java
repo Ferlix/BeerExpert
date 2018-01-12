@@ -2,6 +2,7 @@ package eu.deustotech.beerclipsdemo;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 // Activity to display the information about the chosen beer
@@ -30,6 +31,10 @@ public class ShowBeer extends Activity  {
         nameBeer = databaseAccess.getBeerName(beerID);
         TextView name = (TextView) findViewById(R.id.beerNameView);
         name.setText(nameBeer);
+
+        ImageView image = (ImageView)findViewById(R.id.beerImage);
+
+        image.setImageResource(test.png);
 
         colourBeer = databaseAccess.getBeerColour(beerID);
         TextView colour = (TextView) findViewById(R.id.colourBeerView);
