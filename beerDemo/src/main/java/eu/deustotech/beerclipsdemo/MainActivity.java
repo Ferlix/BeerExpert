@@ -82,6 +82,7 @@ public class MainActivity extends Activity implements NextStateListener {
 	Environment clips;
 	ExpertSystem beerExpertSystem;
 	ExpertTaskFactory taskFactory;
+	String debugQueryText = new String("");
 
 	static final String appRootDirectory = "/data/data/BeerExpert";
 
@@ -291,6 +292,8 @@ public class MainActivity extends Activity implements NextStateListener {
 					public void run() {
 						setEnabledButtons(true, true, true);
 						setLabelText( getResourceString( state.getQuestion() ) );
+						if( getSelectedChoice() != null)	debugQueryText = debugQueryText + "\n---->" + getSelectedChoice() + "\n";
+						if( getResourceString(state.getQuestion()) != null )	debugQueryText = debugQueryText + "\n" + getResourceString(state.getQuestion());
 						setChoices( state.getChoices() );
 					}
 				}
@@ -305,6 +308,10 @@ public class MainActivity extends Activity implements NextStateListener {
 					// Send the ID of the chosen beer to the new activity to display its info
 					Intent intent = new Intent(MainActivity.this, ShowBeer.class);
 					intent.putExtra("ANSWER", state.getAnswer());
+					debugQueryText = debugQueryText + "\n----->" + getSelectedChoice();
+					debugQueryText = debugQueryText + "\n\n----->" + state.getAnswer() + "<-----";
+					intent.putExtra("DEBUG", debugQueryText);
+					debugQueryText = "";
 					startActivity(intent);
 
 					setEnabledButtons(true, true, false);

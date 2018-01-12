@@ -1,14 +1,23 @@
 package eu.deustotech.beerclipsdemo;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Gravity;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 // Activity to display the information about the chosen beer
 // The ID of the beer is sent from the main activity
 public class ShowBeer extends Activity  {
 
+    String debugQueryText;
     String beerID;
     String nameBeer;
     String typeBeer;
@@ -28,6 +37,7 @@ public class ShowBeer extends Activity  {
 
 
         beerID = getIntent().getStringExtra("ANSWER");
+        debugQueryText = getIntent().getStringExtra("DEBUG");
 
         DatabaseAccess databaseAccess = DatabaseAccess.getInstance(this);
         databaseAccess.open();
@@ -83,6 +93,48 @@ public class ShowBeer extends Activity  {
         if(extras.getText().length() == 0) extrasTitle.setVisibility(View.GONE);
 
         databaseAccess.close();
+
+
+    }
+
+    // Method to create the menu bar
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.debug_menu, menu);
+        return true;
+    }
+
+    // Methods for the items in the menu bar
+    // action_about_this_app: when clicked, bring to the relative activity
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle item selection
+        switch (item.getItemId()) {
+            case R.id.action_about:
+                // Create a pop up message with a button to close it
+                // with information about the app
+                AlertDialog.Builder builderAlert = new AlertDialog.Builder(ShowBeer.this);
+                builderAlert.setMessage(R.string.about_this_app);
+                builderAlert.setCancelable(true);
+                builderAlert.setNeutralButton(
+                        "OK",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                dialog.cancel();
+                            }
+                        });
+                AlertDialog alertInstance = builderAlert.create();
+                alertInstance.show();
+                return true;
+            case R.id.action_debug:
+                Intent intent = new Intent(ShowBeer.this, DebugActivity.class);
+                intent.putExtra("DEBUG", debugQueryText);
+                startActivity(intent);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
 }
