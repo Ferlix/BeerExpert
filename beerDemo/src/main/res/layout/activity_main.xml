@@ -28,11 +28,9 @@
         android:id="@+id/radioGroup1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/linearLayout"
-        android:layout_alignStart="@+id/linearLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_below="@+id/start_message"
-        android:layout_marginLeft="75dp"
-        android:layout_marginStart="75dp"
         android:layout_marginTop="98dp"
         android:orientation="vertical">
         <!--

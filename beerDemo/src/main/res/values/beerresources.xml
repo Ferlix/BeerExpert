@@ -11,18 +11,31 @@
    giving you also the needed ingredients for brewing it. \n \n
     Test it out!</string>
 
-<string name="fruity.query">Do you prefer fuity beers over dry ones?</string>
-<string name="blonde.query">Do you prefer blonde beers over dark ones?</string>
+    <string name="advanced.query">Do you have much experience brewing?</string>
+    <string name="cherry.query">Do you prefer a cherry flavour to your beer?</string>
+    <string name="dry.query">Do you prefer a dry beer?</string>
+    <string name="high.alcohol.query">Do you prefer more alcohol in your beer?</string>
+    <string name="bitter.query">Do you prefer a bitter beer?</string>
+    <string name="sweetness.query">Do you prefer sweeter beers?</string>
+    <string name="fruity.query">Do you prefer fruity beers?</string>
+    <string name="blonde.query">Do you prefer blonde beers?</string>
+    <string name="dark.colour.query">Do you prefer darker beers?</string>
+    <string name="hops.query">Do you prefer hoppy beers?</string>
+    <string name="caramel.query">Do you prefer beers with a caramel taste?</string>
 
     <string name="blonde.lager">blonde.lager</string>
     <string name="faro">faro</string>
-    <string name="pale.ale">pale.ale</string>
+    <string name="ale.lager">ale.lager</string>
+    <string name="pale.lager">pale.lager</string>
     <string name="dark.ale">dark.ale</string>
+    <string name="dark.lager">dark.lager</string>
 
+    <string name="pale.ale">pale.ale</string>
     <string name="kriek">kriek</string>
     <string name="gueuze">gueuze</string>
     <string name="bock">bock</string>
-    <string name="india.pale.lager">india.lager</string>
+    <string name="india.pale.ale">india.pale.ale</string>
+    <string name="india.pale.lager">india.pale.lager</string>
     <string name="blonde.trappist">blonde.trappist</string>
     <string name="dubbel.trappist">dubbel.trappist</string>
     <string name="triple.trappist">triple.trappist</string>

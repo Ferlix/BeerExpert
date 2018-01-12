@@ -66,6 +66,7 @@ class CustomRadioButton extends RadioButton {
 		this.setTextColor(myList);
 		this.setText( lblText );
 		this.setSelected( choice.isValid() );
+
 	}
 
 	public String getChoiceId() {
@@ -170,10 +171,7 @@ public class MainActivity extends Activity implements NextStateListener {
 			}
 		}
 
-		//rg.refreshDrawableState();
 		rg.invalidate();
-		//ViewGroup vg = (ViewGroup) findViewById (R.id.mainLayout);
-		//vg.invalidate();
 	}
 
 	private String getSelectedChoice() {
@@ -192,7 +190,7 @@ public class MainActivity extends Activity implements NextStateListener {
 		try {
 			createRootDirectoryIfDoesNotExist();
 			final String expertSystemRulesFile = getRealFilePathCreatingIfDoesNotExist( "bcdemo.clp" );
-			final String beerDemoFile = getRealFilePathCreatingIfDoesNotExist( "beerdemo.clp" );
+			final String beerDemoFile = getRealFilePathCreatingIfDoesNotExist( "35.clp" );
 
 			this.beerExpertSystem = new ExpertSystem( new String[] {expertSystemRulesFile, beerDemoFile} );
 			this.beerExpertSystem.addListener(this);

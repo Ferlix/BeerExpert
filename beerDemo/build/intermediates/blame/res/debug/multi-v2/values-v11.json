@@ -25,6 +25,30 @@
             ]
         },
         {
+            "outputFile": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "177",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "309"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\Users\\Marco\\Desktop\\BeerExpert-5d75a8180d2da21b55356854c937167f3a8db901\\beerDemo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {

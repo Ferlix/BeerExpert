@@ -13,7 +13,11 @@ public class ShowBeer extends Activity  {
     String typeBeer;
     String colourBeer;
     String flavourBeer;
-    String ingredientsBeer;
+    String grainBeer;
+    String yeastBeer;
+    String hopBeer;
+    String fermentationBeer;
+    String extrasBeer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +31,7 @@ public class ShowBeer extends Activity  {
         DatabaseAccess databaseAccess = DatabaseAccess.getInstance(this);
         databaseAccess.open();
 
+        // Set the texts of the section getting them from the dataabase class:
         nameBeer = databaseAccess.getBeerName(beerID);
         TextView name = (TextView) findViewById(R.id.beerNameView);
         name.setText(nameBeer);
@@ -42,6 +47,39 @@ public class ShowBeer extends Activity  {
         flavourBeer = databaseAccess.getBeerFlavour(beerID);
         TextView flavour = (TextView) findViewById(R.id.flavourBeer);
         flavour.setText(flavourBeer);
+
+        grainBeer = databaseAccess.getBeerGrain(beerID);
+        TextView grain = (TextView) findViewById(R.id.grainBeerView);
+        grain.setText(grainBeer);
+
+        yeastBeer = databaseAccess.getBeerYeast(beerID);
+        TextView yeast = (TextView) findViewById(R.id.yeastBeerView);
+        yeast.setText(yeastBeer);
+
+        hopBeer = databaseAccess.getBeerHop(beerID);
+        TextView hop = (TextView) findViewById(R.id.hopBeerView);
+        hop.setText(hopBeer);
+
+        fermentationBeer = databaseAccess.getBeerFermentation(beerID);
+        TextView fermentation = (TextView) findViewById(R.id.fermentationBeerView);
+        fermentation.setText(fermentationBeer);
+
+        extrasBeer = databaseAccess.getBeerExtras(beerID);
+        TextView extras = (TextView) findViewById(R.id.extrasBeerView);
+        extras.setText(extrasBeer);
+
+        // Set titles of section invisible if there is nothing to display:
+        TextView grainTitle = (TextView) findViewById(R.id.grainTitle);
+        TextView yeastTitle = (TextView) findViewById(R.id.yeastTitle);
+        TextView hopTitle = (TextView) findViewById(R.id.hopTitle);
+        TextView fermentationTitle = (TextView) findViewById(R.id.fermentationTitle);
+        TextView extrasTitle = (TextView) findViewById(R.id.extrasTitle);
+
+        if(grain.getText().length() == 0) grainTitle.setText(null);
+        if(yeast.getText().length() == 0) yeastTitle.setText(null);
+        if(hop.getText().length() == 0) hopTitle.setText(null);
+        if(fermentation.getText().length() == 0) fermentationTitle.setText(null);
+        if(extras.getText().length() == 0) extrasTitle.setText(null);
 
         databaseAccess.close();
     }
