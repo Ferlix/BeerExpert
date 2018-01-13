@@ -203,8 +203,11 @@ public class MainActivity extends Activity implements NextStateListener {
 	}
 
 	public void onClickPrevious(View view) {
-		submitTaskToExpertSystem( this.taskFactory.createPreviousTask() );
-		debugQueryText = debugQueryText + "\n\nGO BACK TO PREVIOUS QUESTION\n";
+		final TextView lblMsg = (TextView) findViewById(R.id.start_message);
+		if( lblMsg.getText().toString().compareTo("Are you an experienced brewer?") != 0 ) {
+			submitTaskToExpertSystem( this.taskFactory.createPreviousTask() );
+			debugQueryText = debugQueryText + "\n\nGO BACK TO PREVIOUS QUESTION\n";
+		}
 	}
 
 	private void submitTaskToExpertSystem(Runnable runnable) {
