@@ -6,7 +6,8 @@
 <string name="Next">Next</string>
 <string name="Prev">Prev</string>
 <string name="Restart">Restart</string>
-<string name="WelcomeMessage">Welcome to the Brew Expert System! \n
+ <string name="WelcomeMessage">\n\n\n</string>
+<string name="WelcomePage">Welcome to the Brew Expert System! \n
     This wise application can tell you what\'s the perfect beer for you,
    giving you also the needed ingredients for brewing it. \n \n
     Test it out!</string>

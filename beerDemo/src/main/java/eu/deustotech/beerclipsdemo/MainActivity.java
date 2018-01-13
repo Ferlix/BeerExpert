@@ -171,14 +171,15 @@ public class MainActivity extends Activity implements NextStateListener {
 		try {
 			createRootDirectoryIfDoesNotExist();
 			final String expertSystemRulesFile = getRealFilePathCreatingIfDoesNotExist( "bcdemo.clp" );
-			final String beerDemoFile = getRealFilePathCreatingIfDoesNotExist( "beerdemo.clp" );
+			final String beerDemoFile = getRealFilePathCreatingIfDoesNotExist( "44.clp" );
 
 			this.beerExpertSystem = new ExpertSystem( new String[] {expertSystemRulesFile, beerDemoFile} );
 			this.beerExpertSystem.addListener(this);
 			this.beerExpertSystem.start();
 			this.taskFactory = new ExpertTaskFactory( this.beerExpertSystem );
-
 			submitTaskToExpertSystem( this.taskFactory.createRestartTask() );
+			submitTaskToExpertSystem( taskFactory.createNextTask("YES") );
+
 		} catch (IOException e) {
 			setEnabledButtons( false, false, false );
 			setLabelText( e.getMessage() );
@@ -187,6 +188,8 @@ public class MainActivity extends Activity implements NextStateListener {
 
 	public void onClickRestart(View view) {
 		submitTaskToExpertSystem( this.taskFactory.createRestartTask() );
+		submitTaskToExpertSystem( taskFactory.createNextTask("YES") );
+		debugQueryText = "";
 	}
 
 	public void onClickYes(View view) {
@@ -201,6 +204,7 @@ public class MainActivity extends Activity implements NextStateListener {
 
 	public void onClickPrevious(View view) {
 		submitTaskToExpertSystem( this.taskFactory.createPreviousTask() );
+		debugQueryText = debugQueryText + "\n\nGO BACK TO PREVIOUS QUESTION\n";
 	}
 
 	private void submitTaskToExpertSystem(Runnable runnable) {
@@ -230,7 +234,7 @@ public class MainActivity extends Activity implements NextStateListener {
 					public void run() {
 						setEnabledButtons(true, true, true);
 						setLabelText( getResourceString( state.getQuestion() ) );
-						debugQueryText = debugQueryText + "\n" + getResourceString(state.getQuestion());
+						debugQueryText = debugQueryText + "\n\n" + getResourceString(state.getQuestion());
 					}
 				}
 		);
@@ -246,11 +250,9 @@ public class MainActivity extends Activity implements NextStateListener {
 					intent.putExtra("ANSWER", state.getAnswer());
 					debugQueryText = debugQueryText + "\n\n----->" + state.getAnswer() + "<-----";
 					intent.putExtra("DEBUG", debugQueryText);
-					debugQueryText = "";
 					startActivity(intent);
-
+					submitTaskToExpertSystem( taskFactory.createPreviousTask() );
 					setEnabledButtons(true, true, false);
-					setLabelText(" ");
 				}
 			}
 		);
