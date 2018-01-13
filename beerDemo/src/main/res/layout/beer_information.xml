@@ -9,31 +9,32 @@
         android:id="@+id/beerNameView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:text="TextView"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:layout_margin="24dp"/>
 
     <ImageView
         android:id="@+id/beerImage"
-        android:src="@mipmap/test"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="33dp"
-        android:padding="10dp"/>
-
-    <TextView
-        android:id="@+id/type_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/beerNameView"
         android:layout_alignStart="@+id/beerNameView"
         android:layout_below="@+id/beerNameView"
+        android:layout_gravity="center_horizontal"
+    />
+
+
+    <TextView
+        android:id="@+id/type_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/beerImage"
+        android:layout_alignStart="@+id/beerImage"
+        android:layout_below="@+id/beerImage"
         android:layout_marginTop="30dp"
         android:text="@string/beer_type" />
 

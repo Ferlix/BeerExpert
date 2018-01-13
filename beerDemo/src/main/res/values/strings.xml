@@ -6,11 +6,12 @@
     <string name="previous">Previous</string>
     <string name="next">Next</string>
     <string name="start">Start</string>
-    <string name="about_this_app">This expert system is developed for the course
+    <string name="about_this_app">
+        This expert system is developed for the course
         Knowledge Technology Practical at the University of Groningen. \n \n \n
         This version is a prototype, and it does not reflect the properties
-        of the final project.</string>
-
+        of the final project.
+    </string>
     <string name="beer_type">Type of beer</string>
     <string name="beer_colour">Colour</string>
     <string name="beer_flavour">Flavour</string>

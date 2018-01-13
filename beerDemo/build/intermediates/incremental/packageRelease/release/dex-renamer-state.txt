@@ -1,4 +1,0 @@
-#Fri Jan 12 12:08:26 CET 2018
-base.0=/home/user/Desktop/BeerExpert-master/beerDemo/build/intermediates/transforms/dex/release/0
-path.0=classes.dex
-renamed.0=classes.dex

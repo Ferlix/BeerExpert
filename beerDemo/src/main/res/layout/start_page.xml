@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_centerHorizontal="true">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Discover your own drink"
+        />
+
+    <TextView
+        android:id="@+id/start_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="67dp"
+        android:gravity="center"
+        android:text="@string/WelcomeMessage"
+        android:textAlignment="center"
+        android:padding="20dp"
+    />
+
+    <Button
+        android:id="@+id/btnYes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="onClickBegin"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="Begin" />
+
+</RelativeLayout>

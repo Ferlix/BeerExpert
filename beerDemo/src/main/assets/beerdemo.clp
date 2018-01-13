@@ -3,7 +3,6 @@
 ;;;***************************
 
 (deffacts MAIN::knowledge-base
-    (welcome (message WelcomeMessage))
     (goal (variable beer.type))
     (legalanswers (values yes no))
     (displayanswers (values "Yes" "No"))

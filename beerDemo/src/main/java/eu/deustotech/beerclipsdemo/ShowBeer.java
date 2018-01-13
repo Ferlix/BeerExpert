@@ -1,6 +1,7 @@
 package eu.deustotech.beerclipsdemo;
 
 import android.app.Activity;
+import android.net.Uri;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -32,9 +33,9 @@ public class ShowBeer extends Activity  {
         TextView name = (TextView) findViewById(R.id.beerNameView);
         name.setText(nameBeer);
 
-        ImageView image = (ImageView)findViewById(R.id.beerImage);
+        ImageView imageView = (ImageView)findViewById(R.id.beerImage);
+        imageView.setImageResource(R.mipmap.test);
 
-        image.setImageResource(test.png);
 
         colourBeer = databaseAccess.getBeerColour(beerID);
         TextView colour = (TextView) findViewById(R.id.colourBeerView);
