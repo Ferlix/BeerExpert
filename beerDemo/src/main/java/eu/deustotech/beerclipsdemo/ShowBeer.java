@@ -1,20 +1,15 @@
 package eu.deustotech.beerclipsdemo;
 
 import android.app.Activity;
-<<<<<<< HEAD
 import android.net.Uri;
 import android.os.Bundle;
 import android.widget.ImageView;
-=======
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.os.Bundle;
-import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
->>>>>>> master
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
