@@ -11,8 +11,8 @@
    giving you also the needed ingredients for brewing it. \n \n
     Test it out!</string>
 
-    <string name="advanced.query">Do you have much experience brewing?</string>
-    <string name="cherry.query">Do you prefer a cherry flavour to your beer?</string>
+    <string name="advanced.query">Are you an experienced brewer?</string>
+    <string name="cherry.query">Would you like to brew a beer with cherry aroma?</string>
     <string name="dry.query">Do you prefer a dry beer?</string>
     <string name="high.alcohol.query">Do you prefer more alcohol in your beer?</string>
     <string name="bitter.query">Do you prefer a bitter beer?</string>
@@ -21,7 +21,7 @@
     <string name="blonde.query">Do you prefer blonde beers?</string>
     <string name="dark.colour.query">Do you prefer darker beers?</string>
     <string name="hops.query">Do you prefer hoppy beers?</string>
-    <string name="caramel.query">Do you prefer beers with a caramel taste?</string>
+    <string name="caramel.query">Do you prefer beers with a more light chocolate, coffee, or toast notes?</string>
 
     <string name="blonde.lager">blonde.lager</string>
     <string name="faro">faro</string>

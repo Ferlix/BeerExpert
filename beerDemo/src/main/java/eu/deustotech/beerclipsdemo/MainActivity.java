@@ -191,7 +191,7 @@ public class MainActivity extends Activity implements NextStateListener {
 		try {
 			createRootDirectoryIfDoesNotExist();
 			final String expertSystemRulesFile = getRealFilePathCreatingIfDoesNotExist( "bcdemo.clp" );
-			final String beerDemoFile = getRealFilePathCreatingIfDoesNotExist( "35.clp" );
+			final String beerDemoFile = getRealFilePathCreatingIfDoesNotExist( "44.clp" );
 
 			this.beerExpertSystem = new ExpertSystem( new String[] {expertSystemRulesFile, beerDemoFile} );
 			this.beerExpertSystem.addListener(this);
