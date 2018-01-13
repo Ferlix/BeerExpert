@@ -1,34 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">BrewExpert (CLIPS)</string>
+    <string name="app_name">BrewExpert</string>
     <string name="action_about_this_app">About this app</string>
     <string name="action_debug">Debug register</string>
     <string name="restart">Restart</string>
     <string name="previous">Previous</string>
     <string name="next">Next</string>
     <string name="start">Start</string>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> parent of c44244b... fixing merge
-    <string name="about_this_app">
-        This expert system is developed for the course
-        Knowledge Technology Practical at the University of Groningen. \n \n \n
-        This version is a prototype, and it does not reflect the properties
-        of the final project.
-    </string>
-=======
-<<<<<<< HEAD
->>>>>>> parent of c44244b... fixing merge
-=======
->>>>>>> parent of c44244b... fixing merge
-    <string name="about_this_app">Version: 1.0\n\nThis Android application is developed for the course
-        Knowledge Technology Practical at the University of Groningen. \n \n
-        \nIt implements an expert system containing knowledge of beers, elicited from an expert brewer.</string>
 
->>>>>>> master
+
+    <string name="about_this_app">
+        Version: 1.1\n\nThis Android application is developed for the course
+        Knowledge Technology Practical at the University of Groningen. \n \n
+        \nIt implements an expert system containing knowledge of beers, elicited from an expert brewer.
+    </string>
+
     <string name="beer_type">Type of beer</string>
     <string name="beer_colour">Colour</string>
     <string name="beer_flavour">Flavour</string>

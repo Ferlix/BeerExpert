@@ -35,67 +35,10 @@ import eu.deustotech.beerclipsdemo.states.StateChoice;
 import eu.deustotech.beerclipsdemo.states.UsualState;
 import eu.deustotech.clips.Environment;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of c44244b... fixing merge
-=======
->>>>>>> parent of c44244b... fixing merge
-
-class CustomRadioButton extends RadioButton {
-	final StateChoice choice;
-
-	// sigh...
-	final int[][] states = new int[][] {
-			new int[] { android.R.attr.state_enabled}, // enabled
-			new int[] {-android.R.attr.state_enabled}, // disabled
-			new int[] {-android.R.attr.state_checked}, // unchecked
-			new int[] { android.R.attr.state_pressed}  // pressed
-	};
-
-	final int[] colors = new int[] {
-			Color.BLACK,
-			Color.GRAY,
-			Color.GREEN,
-			Color.BLUE
-	};
-
-	final ColorStateList myList = new ColorStateList(states, colors);
-
-
-	public CustomRadioButton(Context context, StateChoice choice, String lblText) {
-		super(context);
-		this.choice = choice;
-
-		// Otherwise the text color is set to white.
-		// No idea why this happens doing programatically, but not adding a RadioButton to the XML file... :-S
-		this.setTextColor(myList);
-		this.setText( lblText );
-		this.setSelected( choice.isValid() );
-
-	}
-
-	public String getChoiceId() {
-		return this.choice.getId();
-	}
-}
-
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> master
->>>>>>> parent of c44244b... fixing merge
-=======
->>>>>>> master
->>>>>>> parent of c44244b... fixing merge
 public class MainActivity extends Activity implements NextStateListener {
 
 	final ExecutorService executor = Executors.newSingleThreadExecutor();
 
-	Environment clips;
 	ExpertSystem beerExpertSystem;
 	ExpertTaskFactory taskFactory;
 	String debugQueryText = new String("");
@@ -166,9 +109,6 @@ public class MainActivity extends Activity implements NextStateListener {
 
 		final Button btnPrevious = (Button) findViewById(R.id.btnPrevious);
 		btnPrevious.setEnabled(previous);
-
-		final Button btnNext = (Button) findViewById(R.id.btnNext);
-		btnNext.setEnabled(next);
 	}
 
 	private void setLabelText(String text) {
@@ -176,99 +116,11 @@ public class MainActivity extends Activity implements NextStateListener {
 		lblMsg.setText( text );
 	}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-	private void setChoices(final Set<StateChoice> choices) {
-		final RadioGroup rg = (RadioGroup) findViewById(R.id.radioGroup1);
-		rg.removeAllViews();
-		rg.clearCheck();
-		if( choices != null ) {
-			for(StateChoice choice: choices) {
-				final String lblText = getResourceString(choice.getId());
-				final CustomRadioButton rb = new CustomRadioButton( getBaseContext(), choice, lblText );
-				rg.addView( rb );
-			}
-		}
-
-		rg.invalidate();
-	}
-
-	private String getSelectedChoice() {
-		final RadioGroup rg = (RadioGroup) findViewById(R.id.radioGroup1);
-		final int checkedRBId = rg.getCheckedRadioButtonId();
-		if( checkedRBId==-1 ) return null;
-		return ((CustomRadioButton) findViewById(checkedRBId)).getChoiceId();
-	}
-
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-=======
-<<<<<<< HEAD
-=======
->>>>>>> parent of c44244b... fixing merge
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.start_page);
-=======
-	private void setChoices(final Set<StateChoice> choices) {
-		final RadioGroup rg = (RadioGroup) findViewById(R.id.radioGroup1);
-		rg.removeAllViews();
-		rg.clearCheck();
-		if( choices != null ) {
-			for(StateChoice choice: choices) {
-				final String lblText = getResourceString(choice.getId());
-				final CustomRadioButton rb = new CustomRadioButton( getBaseContext(), choice, lblText );
-				rg.addView( rb );
-			}
-		}
-
-		rg.invalidate();
 	}
-
-	private String getSelectedChoice() {
-		final RadioGroup rg = (RadioGroup) findViewById(R.id.radioGroup1);
-		final int checkedRBId = rg.getCheckedRadioButtonId();
-		if( checkedRBId==-1 ) return null;
-		return ((CustomRadioButton) findViewById(checkedRBId)).getChoiceId();
-	}
-
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-<<<<<<< HEAD
->>>>>>> parent of c44244b... fixing merge
-=======
->>>>>>> parent of c44244b... fixing merge
-		setContentView(R.layout.activity_main);
-
-
-		try {
-			createRootDirectoryIfDoesNotExist();
-			final String expertSystemRulesFile = getRealFilePathCreatingIfDoesNotExist( "bcdemo.clp" );
-			final String beerDemoFile = getRealFilePathCreatingIfDoesNotExist( "44.clp" );
-
-			this.beerExpertSystem = new ExpertSystem( new String[] {expertSystemRulesFile, beerDemoFile} );
-			this.beerExpertSystem.addListener(this);
-			this.beerExpertSystem.start();
-			this.taskFactory = new ExpertTaskFactory( this.beerExpertSystem );
-
-			submitTaskToExpertSystem( this.taskFactory.createRestartTask() );
-		} catch (IOException e) {
-			setEnabledButtons( false, false, false );
-			setLabelText( e.getMessage() );
-		}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> master
->>>>>>> parent of c44244b... fixing merge
-=======
->>>>>>> master
->>>>>>> parent of c44244b... fixing merge
-	}
-
 
 	@Override
 	protected void onDestroy() {
@@ -314,23 +166,37 @@ public class MainActivity extends Activity implements NextStateListener {
 		}
 	}
 
+	public void onClickBegin(View view) {
+		setContentView(R.layout.activity_main);
+		try {
+			createRootDirectoryIfDoesNotExist();
+			final String expertSystemRulesFile = getRealFilePathCreatingIfDoesNotExist( "bcdemo.clp" );
+			final String beerDemoFile = getRealFilePathCreatingIfDoesNotExist( "beerdemo.clp" );
+
+			this.beerExpertSystem = new ExpertSystem( new String[] {expertSystemRulesFile, beerDemoFile} );
+			this.beerExpertSystem.addListener(this);
+			this.beerExpertSystem.start();
+			this.taskFactory = new ExpertTaskFactory( this.beerExpertSystem );
+
+			submitTaskToExpertSystem( this.taskFactory.createRestartTask() );
+		} catch (IOException e) {
+			setEnabledButtons( false, false, false );
+			setLabelText( e.getMessage() );
+		}
+	}
+
 	public void onClickRestart(View view) {
 		submitTaskToExpertSystem( this.taskFactory.createRestartTask() );
 	}
 
-<<<<<<< HEAD
-	public void onClickNext(View view) {
-		final String chosenStateId = getSelectedChoice();
-		// TODO Check that if there are choices, one is selected!
-		submitTaskToExpertSystem( this.taskFactory.createNextTask(chosenStateId) );
-=======
 	public void onClickYes(View view) {
+		debugQueryText = debugQueryText + "\n----> Yes\n";
 		submitTaskToExpertSystem( this.taskFactory.createNextTask("YES") );
 	}
 
 	public void onClickNo(View view) {
+		debugQueryText = debugQueryText + "\n----> No\n";
 		submitTaskToExpertSystem( this.taskFactory.createNextTask("NO") );
->>>>>>> parent of c44244b... fixing merge
 	}
 
 	public void onClickPrevious(View view) {
@@ -352,7 +218,6 @@ public class MainActivity extends Activity implements NextStateListener {
 					public void run() {
 						setEnabledButtons(false, false, true);
 						setLabelText( getResourceString( state.getQuestion() ) );
-						setChoices( state.getChoices() );
 					}
 				}
 		);
@@ -365,24 +230,7 @@ public class MainActivity extends Activity implements NextStateListener {
 					public void run() {
 						setEnabledButtons(true, true, true);
 						setLabelText( getResourceString( state.getQuestion() ) );
-<<<<<<< HEAD
-<<<<<<< HEAD
-						if( getSelectedChoice() != null)	debugQueryText = debugQueryText + "\n---->" + getSelectedChoice() + "\n";
-						if( getResourceString(state.getQuestion()) != null )	debugQueryText = debugQueryText + "\n" + getResourceString(state.getQuestion());
-						setChoices( state.getChoices() );
-=======
-<<<<<<< HEAD
-=======
->>>>>>> parent of c44244b... fixing merge
-=======
-						if( getSelectedChoice() != null)	debugQueryText = debugQueryText + "\n---->" + getSelectedChoice() + "\n";
-						if( getResourceString(state.getQuestion()) != null )	debugQueryText = debugQueryText + "\n" + getResourceString(state.getQuestion());
-						setChoices( state.getChoices() );
->>>>>>> master
-<<<<<<< HEAD
->>>>>>> parent of c44244b... fixing merge
-=======
->>>>>>> parent of c44244b... fixing merge
+						debugQueryText = debugQueryText + "\n" + getResourceString(state.getQuestion());
 					}
 				}
 		);
@@ -396,7 +244,6 @@ public class MainActivity extends Activity implements NextStateListener {
 					// Send the ID of the chosen beer to the new activity to display its info
 					Intent intent = new Intent(MainActivity.this, ShowBeer.class);
 					intent.putExtra("ANSWER", state.getAnswer());
-					debugQueryText = debugQueryText + "\n----->" + getSelectedChoice();
 					debugQueryText = debugQueryText + "\n\n----->" + state.getAnswer() + "<-----";
 					intent.putExtra("DEBUG", debugQueryText);
 					debugQueryText = "";
@@ -404,7 +251,6 @@ public class MainActivity extends Activity implements NextStateListener {
 
 					setEnabledButtons(true, true, false);
 					setLabelText(" ");
-					setChoices( null );
 				}
 			}
 		);
