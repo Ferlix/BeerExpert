@@ -15,7 +15,7 @@ public class DatabaseAccess {
 
     // Define database name and columns
     String table = "beers";
-    String[] columns = {"IDbeer", "name", "type", "colour", "flavour"};
+    String[] columns = {"IDbeer", "name", "type", "colour", "flavour", "grain", "yeast", "hop", "fermentation", "extras"};
     String selection = "IDbeer =?";
     String[] selectionArgs;
     String groupBy = null;
@@ -133,6 +133,76 @@ public class DatabaseAccess {
     public String getBeerFlavour(String IDbeer){
         String beer = new String("Beer not found");
         String[] columns = {"flavour"};
+        String[] selectionArgs = new String[]{IDbeer};
+        Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()) {
+            beer = cursor.getString(0);
+            cursor.moveToNext();
+        }
+        cursor.close();
+        return beer;
+    }
+
+    public String getBeerGrain(String IDbeer){
+        String beer = new String("Beer not found");
+        String[] columns = {"grain"};
+        String[] selectionArgs = new String[]{IDbeer};
+        Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()) {
+            beer = cursor.getString(0);
+            cursor.moveToNext();
+        }
+        cursor.close();
+        return beer;
+    }
+
+    public String getBeerYeast(String IDbeer){
+        String beer = new String("Beer not found");
+        String[] columns = {"yeast"};
+        String[] selectionArgs = new String[]{IDbeer};
+        Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()) {
+            beer = cursor.getString(0);
+            cursor.moveToNext();
+        }
+        cursor.close();
+        return beer;
+    }
+
+    public String getBeerHop(String IDbeer){
+        String beer = new String("Beer not found");
+        String[] columns = {"hop"};
+        String[] selectionArgs = new String[]{IDbeer};
+        Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()) {
+            beer = cursor.getString(0);
+            cursor.moveToNext();
+        }
+        cursor.close();
+        return beer;
+    }
+
+    public String getBeerFermentation(String IDbeer){
+        String beer = new String("Beer not found");
+        String[] columns = {"fermentation"};
+        String[] selectionArgs = new String[]{IDbeer};
+        Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()) {
+            beer = cursor.getString(0);
+            cursor.moveToNext();
+        }
+        cursor.close();
+        return beer;
+    }
+
+    public String getBeerExtras(String IDbeer){
+        String beer = new String("Beer not found");
+        String[] columns = {"extras"};
         String[] selectionArgs = new String[]{IDbeer};
         Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
         cursor.moveToFirst();

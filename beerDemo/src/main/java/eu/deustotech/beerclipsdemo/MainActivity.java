@@ -35,12 +35,56 @@ import eu.deustotech.beerclipsdemo.states.StateChoice;
 import eu.deustotech.beerclipsdemo.states.UsualState;
 import eu.deustotech.clips.Environment;
 
+<<<<<<< HEAD
+=======
+
+class CustomRadioButton extends RadioButton {
+	final StateChoice choice;
+
+	// sigh...
+	final int[][] states = new int[][] {
+			new int[] { android.R.attr.state_enabled}, // enabled
+			new int[] {-android.R.attr.state_enabled}, // disabled
+			new int[] {-android.R.attr.state_checked}, // unchecked
+			new int[] { android.R.attr.state_pressed}  // pressed
+	};
+
+	final int[] colors = new int[] {
+			Color.BLACK,
+			Color.GRAY,
+			Color.GREEN,
+			Color.BLUE
+	};
+
+	final ColorStateList myList = new ColorStateList(states, colors);
+
+
+	public CustomRadioButton(Context context, StateChoice choice, String lblText) {
+		super(context);
+		this.choice = choice;
+
+		// Otherwise the text color is set to white.
+		// No idea why this happens doing programatically, but not adding a RadioButton to the XML file... :-S
+		this.setTextColor(myList);
+		this.setText( lblText );
+		this.setSelected( choice.isValid() );
+
+	}
+
+	public String getChoiceId() {
+		return this.choice.getId();
+	}
+}
+
+
+>>>>>>> master
 public class MainActivity extends Activity implements NextStateListener {
 
 	final ExecutorService executor = Executors.newSingleThreadExecutor();
 
 	ExpertSystem beerExpertSystem;
 	ExpertTaskFactory taskFactory;
+	String debugQueryText = new String("");
 
 	static final String appRootDirectory = "/data/data/BeerExpert";
 
@@ -115,10 +159,56 @@ public class MainActivity extends Activity implements NextStateListener {
 		lblMsg.setText( text );
 	}
 
+<<<<<<< HEAD
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.start_page);
+=======
+	private void setChoices(final Set<StateChoice> choices) {
+		final RadioGroup rg = (RadioGroup) findViewById(R.id.radioGroup1);
+		rg.removeAllViews();
+		rg.clearCheck();
+		if( choices != null ) {
+			for(StateChoice choice: choices) {
+				final String lblText = getResourceString(choice.getId());
+				final CustomRadioButton rb = new CustomRadioButton( getBaseContext(), choice, lblText );
+				rg.addView( rb );
+			}
+		}
+
+		rg.invalidate();
+	}
+
+	private String getSelectedChoice() {
+		final RadioGroup rg = (RadioGroup) findViewById(R.id.radioGroup1);
+		final int checkedRBId = rg.getCheckedRadioButtonId();
+		if( checkedRBId==-1 ) return null;
+		return ((CustomRadioButton) findViewById(checkedRBId)).getChoiceId();
+	}
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+
+
+		try {
+			createRootDirectoryIfDoesNotExist();
+			final String expertSystemRulesFile = getRealFilePathCreatingIfDoesNotExist( "bcdemo.clp" );
+			final String beerDemoFile = getRealFilePathCreatingIfDoesNotExist( "44.clp" );
+
+			this.beerExpertSystem = new ExpertSystem( new String[] {expertSystemRulesFile, beerDemoFile} );
+			this.beerExpertSystem.addListener(this);
+			this.beerExpertSystem.start();
+			this.taskFactory = new ExpertTaskFactory( this.beerExpertSystem );
+
+			submitTaskToExpertSystem( this.taskFactory.createRestartTask() );
+		} catch (IOException e) {
+			setEnabledButtons( false, false, false );
+			setLabelText( e.getMessage() );
+		}
+>>>>>>> master
 	}
 
 	@Override
@@ -227,6 +317,12 @@ public class MainActivity extends Activity implements NextStateListener {
 					public void run() {
 						setEnabledButtons(true, true, true);
 						setLabelText( getResourceString( state.getQuestion() ) );
+<<<<<<< HEAD
+=======
+						if( getSelectedChoice() != null)	debugQueryText = debugQueryText + "\n---->" + getSelectedChoice() + "\n";
+						if( getResourceString(state.getQuestion()) != null )	debugQueryText = debugQueryText + "\n" + getResourceString(state.getQuestion());
+						setChoices( state.getChoices() );
+>>>>>>> master
 					}
 				}
 		);
@@ -240,6 +336,10 @@ public class MainActivity extends Activity implements NextStateListener {
 					// Send the ID of the chosen beer to the new activity to display its info
 					Intent intent = new Intent(MainActivity.this, ShowBeer.class);
 					intent.putExtra("ANSWER", state.getAnswer());
+					debugQueryText = debugQueryText + "\n----->" + getSelectedChoice();
+					debugQueryText = debugQueryText + "\n\n----->" + state.getAnswer() + "<-----";
+					intent.putExtra("DEBUG", debugQueryText);
+					debugQueryText = "";
 					startActivity(intent);
 
 					setEnabledButtons(true, true, false);
