@@ -8,14 +8,20 @@
     <string name="next">Next</string>
     <string name="start">Start</string>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of c44244b... fixing merge
     <string name="about_this_app">
         This expert system is developed for the course
         Knowledge Technology Practical at the University of Groningen. \n \n \n
         This version is a prototype, and it does not reflect the properties
         of the final project.
     </string>
+=======
+<<<<<<< HEAD
+>>>>>>> parent of c44244b... fixing merge
 =======
 >>>>>>> parent of c44244b... fixing merge
     <string name="about_this_app">Version: 1.0\n\nThis Android application is developed for the course

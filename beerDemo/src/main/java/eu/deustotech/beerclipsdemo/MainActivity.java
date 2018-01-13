@@ -38,6 +38,9 @@ import eu.deustotech.clips.Environment;
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of c44244b... fixing merge
 =======
 >>>>>>> parent of c44244b... fixing merge
 
@@ -81,6 +84,10 @@ class CustomRadioButton extends RadioButton {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> parent of c44244b... fixing merge
 =======
 >>>>>>> master
 >>>>>>> parent of c44244b... fixing merge
@@ -170,6 +177,7 @@ public class MainActivity extends Activity implements NextStateListener {
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	private void setChoices(final Set<StateChoice> choices) {
 		final RadioGroup rg = (RadioGroup) findViewById(R.id.radioGroup1);
 		rg.removeAllViews();
@@ -197,6 +205,8 @@ public class MainActivity extends Activity implements NextStateListener {
 		super.onCreate(savedInstanceState);
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of c44244b... fixing merge
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -227,6 +237,9 @@ public class MainActivity extends Activity implements NextStateListener {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+<<<<<<< HEAD
+>>>>>>> parent of c44244b... fixing merge
+=======
 >>>>>>> parent of c44244b... fixing merge
 		setContentView(R.layout.activity_main);
 
@@ -247,6 +260,10 @@ public class MainActivity extends Activity implements NextStateListener {
 			setLabelText( e.getMessage() );
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> parent of c44244b... fixing merge
 =======
 >>>>>>> master
 >>>>>>> parent of c44244b... fixing merge
@@ -349,16 +366,22 @@ public class MainActivity extends Activity implements NextStateListener {
 						setEnabledButtons(true, true, true);
 						setLabelText( getResourceString( state.getQuestion() ) );
 <<<<<<< HEAD
+<<<<<<< HEAD
 						if( getSelectedChoice() != null)	debugQueryText = debugQueryText + "\n---->" + getSelectedChoice() + "\n";
 						if( getResourceString(state.getQuestion()) != null )	debugQueryText = debugQueryText + "\n" + getResourceString(state.getQuestion());
 						setChoices( state.getChoices() );
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> parent of c44244b... fixing merge
+=======
 						if( getSelectedChoice() != null)	debugQueryText = debugQueryText + "\n---->" + getSelectedChoice() + "\n";
 						if( getResourceString(state.getQuestion()) != null )	debugQueryText = debugQueryText + "\n" + getResourceString(state.getQuestion());
 						setChoices( state.getChoices() );
 >>>>>>> master
+<<<<<<< HEAD
+>>>>>>> parent of c44244b... fixing merge
+=======
 >>>>>>> parent of c44244b... fixing merge
 					}
 				}

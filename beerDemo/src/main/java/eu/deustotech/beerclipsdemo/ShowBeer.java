@@ -2,11 +2,17 @@ package eu.deustotech.beerclipsdemo;
 
 import android.app.Activity;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of c44244b... fixing merge
 import android.net.Uri;
 import android.os.Bundle;
 import android.widget.ImageView;
+=======
+<<<<<<< HEAD
+>>>>>>> parent of c44244b... fixing merge
 =======
 >>>>>>> parent of c44244b... fixing merge
 import android.app.AlertDialog;

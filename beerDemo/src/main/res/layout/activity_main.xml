@@ -25,11 +25,17 @@
         android:textAlignment="center" />
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of c44244b... fixing merge
         <TextView
             android:id="@+id/start_message"
             android:layout_width="match_parent"
+=======
+<<<<<<< HEAD
+>>>>>>> parent of c44244b... fixing merge
 =======
 >>>>>>> parent of c44244b... fixing merge
     <RadioGroup
@@ -49,6 +55,10 @@
             android:id="@+id/radio0"
             android:layout_width="wrap_content"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> parent of c44244b... fixing merge
 =======
 >>>>>>> master
 >>>>>>> parent of c44244b... fixing merge
