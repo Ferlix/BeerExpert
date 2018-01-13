@@ -24,6 +24,14 @@
         android:text="@string/WelcomeMessage"
         android:textAlignment="center" />
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        <TextView
+            android:id="@+id/start_message"
+            android:layout_width="match_parent"
+=======
+>>>>>>> parent of c44244b... fixing merge
     <RadioGroup
         android:id="@+id/radioGroup1"
         android:layout_width="fill_parent"
@@ -40,6 +48,10 @@
         <RadioButton
             android:id="@+id/radio0"
             android:layout_width="wrap_content"
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> parent of c44244b... fixing merge
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="RadioButton" />

@@ -52,24 +52,24 @@
         "source": "C:\\Users\\Marco\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\227a5cf52588e7ca9ba6d54456f340a2\\res\\drawable-xxhdpi\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\Marco\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\227a5cf52588e7ca9ba6d54456f340a2\\res\\drawable-xxxhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple_overlay_action_mode.xml.flat",
         "source": "C:\\Users\\Marco\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\227a5cf52588e7ca9ba6d54456f340a2\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Marco\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\227a5cf52588e7ca9ba6d54456f340a2\\res\\drawable-xxxhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_ic_go_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Marco\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\227a5cf52588e7ca9ba6d54456f340a2\\res\\drawable-xhdpi\\abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_ic_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\Marco\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\227a5cf52588e7ca9ba6d54456f340a2\\res\\drawable-xxhdpi\\abc_ic_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\Marco\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\227a5cf52588e7ca9ba6d54456f340a2\\res\\drawable-mdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_ic_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Marco\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\227a5cf52588e7ca9ba6d54456f340a2\\res\\drawable-xxhdpi\\abc_ic_search_api_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -108,12 +108,12 @@
         "source": "C:\\Users\\Marco\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\227a5cf52588e7ca9ba6d54456f340a2\\res\\drawable-xhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Marco\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\227a5cf52588e7ca9ba6d54456f340a2\\res\\drawable-xxhdpi\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "C:\\Users\\Marco\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\227a5cf52588e7ca9ba6d54456f340a2\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Marco\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\227a5cf52588e7ca9ba6d54456f340a2\\res\\drawable-xxhdpi\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_beer_icon_launcher.png.flat",
@@ -124,12 +124,12 @@
         "source": "C:\\Users\\Marco\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\227a5cf52588e7ca9ba6d54456f340a2\\res\\drawable-xxxhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_light.xml.flat",
-        "source": "C:\\Users\\Marco\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\227a5cf52588e7ca9ba6d54456f340a2\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
         "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Marco\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\227a5cf52588e7ca9ba6d54456f340a2\\res\\drawable-mdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_light.xml.flat",
+        "source": "C:\\Users\\Marco\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\227a5cf52588e7ca9ba6d54456f340a2\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
         "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -140,12 +140,12 @@
         "source": "C:\\Users\\Marco\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\227a5cf52588e7ca9ba6d54456f340a2\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_btn_radio_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\Marco\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\227a5cf52588e7ca9ba6d54456f340a2\\res\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
         "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Marco\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\227a5cf52588e7ca9ba6d54456f340a2\\res\\drawable-xxxhdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\Marco\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-21.0.3.aar\\227a5cf52588e7ca9ba6d54456f340a2\\res\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
         "merged": "C:\\Users\\Marco\\Desktop\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abc_ic_menu_paste_mtrl_am_alpha.png.flat",

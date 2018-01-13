@@ -35,6 +35,11 @@ import eu.deustotech.beerclipsdemo.states.StateChoice;
 import eu.deustotech.beerclipsdemo.states.UsualState;
 import eu.deustotech.clips.Environment;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> parent of c44244b... fixing merge
 
 class CustomRadioButton extends RadioButton {
 	final StateChoice choice;
@@ -75,6 +80,10 @@ class CustomRadioButton extends RadioButton {
 }
 
 
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> parent of c44244b... fixing merge
 public class MainActivity extends Activity implements NextStateListener {
 
 	final ExecutorService executor = Executors.newSingleThreadExecutor();
@@ -160,6 +169,7 @@ public class MainActivity extends Activity implements NextStateListener {
 		lblMsg.setText( text );
 	}
 
+<<<<<<< HEAD
 	private void setChoices(final Set<StateChoice> choices) {
 		final RadioGroup rg = (RadioGroup) findViewById(R.id.radioGroup1);
 		rg.removeAllViews();
@@ -185,6 +195,39 @@ public class MainActivity extends Activity implements NextStateListener {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+=======
+<<<<<<< HEAD
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.start_page);
+=======
+	private void setChoices(final Set<StateChoice> choices) {
+		final RadioGroup rg = (RadioGroup) findViewById(R.id.radioGroup1);
+		rg.removeAllViews();
+		rg.clearCheck();
+		if( choices != null ) {
+			for(StateChoice choice: choices) {
+				final String lblText = getResourceString(choice.getId());
+				final CustomRadioButton rb = new CustomRadioButton( getBaseContext(), choice, lblText );
+				rg.addView( rb );
+			}
+		}
+
+		rg.invalidate();
+	}
+
+	private String getSelectedChoice() {
+		final RadioGroup rg = (RadioGroup) findViewById(R.id.radioGroup1);
+		final int checkedRBId = rg.getCheckedRadioButtonId();
+		if( checkedRBId==-1 ) return null;
+		return ((CustomRadioButton) findViewById(checkedRBId)).getChoiceId();
+	}
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+>>>>>>> parent of c44244b... fixing merge
 		setContentView(R.layout.activity_main);
 
 
@@ -203,6 +246,10 @@ public class MainActivity extends Activity implements NextStateListener {
 			setEnabledButtons( false, false, false );
 			setLabelText( e.getMessage() );
 		}
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> parent of c44244b... fixing merge
 	}
 
 
@@ -254,10 +301,19 @@ public class MainActivity extends Activity implements NextStateListener {
 		submitTaskToExpertSystem( this.taskFactory.createRestartTask() );
 	}
 
+<<<<<<< HEAD
 	public void onClickNext(View view) {
 		final String chosenStateId = getSelectedChoice();
 		// TODO Check that if there are choices, one is selected!
 		submitTaskToExpertSystem( this.taskFactory.createNextTask(chosenStateId) );
+=======
+	public void onClickYes(View view) {
+		submitTaskToExpertSystem( this.taskFactory.createNextTask("YES") );
+	}
+
+	public void onClickNo(View view) {
+		submitTaskToExpertSystem( this.taskFactory.createNextTask("NO") );
+>>>>>>> parent of c44244b... fixing merge
 	}
 
 	public void onClickPrevious(View view) {
@@ -292,9 +348,18 @@ public class MainActivity extends Activity implements NextStateListener {
 					public void run() {
 						setEnabledButtons(true, true, true);
 						setLabelText( getResourceString( state.getQuestion() ) );
+<<<<<<< HEAD
 						if( getSelectedChoice() != null)	debugQueryText = debugQueryText + "\n---->" + getSelectedChoice() + "\n";
 						if( getResourceString(state.getQuestion()) != null )	debugQueryText = debugQueryText + "\n" + getResourceString(state.getQuestion());
 						setChoices( state.getChoices() );
+=======
+<<<<<<< HEAD
+=======
+						if( getSelectedChoice() != null)	debugQueryText = debugQueryText + "\n---->" + getSelectedChoice() + "\n";
+						if( getResourceString(state.getQuestion()) != null )	debugQueryText = debugQueryText + "\n" + getResourceString(state.getQuestion());
+						setChoices( state.getChoices() );
+>>>>>>> master
+>>>>>>> parent of c44244b... fixing merge
 					}
 				}
 		);
