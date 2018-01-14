@@ -3,10 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BeerExpert.iml" filepath="$PROJECT_DIR$/BeerExpert.iml" />
-      <module fileurl="file://C:\Users\Marco\Documents\GitHub\BeerExpert\BeerExpert.iml" filepath="C:\Users\Marco\Documents\GitHub\BeerExpert\BeerExpert.iml" />
       <module fileurl="file://$PROJECT_DIR$/beerDemo/beerDemo.iml" filepath="$PROJECT_DIR$/beerDemo/beerDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/clipsAndroid/clipsAndroid.iml" filepath="$PROJECT_DIR$/clipsAndroid/clipsAndroid.iml" />
-      <module fileurl="file://C:\Users\Marco\Documents\GitHub\BeerExpert\clipsAndroid\clipsAndroid.iml" filepath="C:\Users\Marco\Documents\GitHub\BeerExpert\clipsAndroid\clipsAndroid.iml" />
     </modules>
   </component>
 </project>
