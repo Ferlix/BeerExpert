@@ -4,6 +4,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -89,142 +90,235 @@ public class DatabaseAccess {
     * @limit String: Limits the number of rows returned by the query, formatted as LIMIT clause. Passing null denotes no LIMIT clause.
     */
     public String getBeerName(String IDbeer){
-        String beer = new String("Beer not found");
-        String[] columns = {"name"};
-        String[] selectionArgs = new String[]{IDbeer};
-        Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
-        cursor.moveToFirst();
-        while (!cursor.isAfterLast()) {
-            beer = cursor.getString(0);
-            cursor.moveToNext();
+        String beer = new String("not found");
+
+        try
+        {
+            String[] columns = {"name"};
+            String[] selectionArgs = new String[]{IDbeer};
+            Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
+            cursor.moveToFirst();
+            while (!cursor.isAfterLast()) {
+                beer = cursor.getString(0);
+                cursor.moveToNext();
+            }
+            cursor.close();
         }
-        cursor.close();
+        catch (Exception e)
+        {
+            Log.d("database get failed: ", e.getMessage());
+        }
+
         return beer;
     }
 
     public String getBeerType(String IDbeer){
-        String beer = new String("Beer not found");
-        String[] columns = {"type"};
-        String[] selectionArgs = new String[]{IDbeer};
-        Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
-        cursor.moveToFirst();
-        while (!cursor.isAfterLast()) {
-            beer = cursor.getString(0);
-            cursor.moveToNext();
+        String beer = new String("not found");
+
+        try
+        {
+            String[] columns = {"type"};
+            String[] selectionArgs = new String[]{IDbeer};
+            Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
+            cursor.moveToFirst();
+            while (!cursor.isAfterLast()) {
+                beer = cursor.getString(0);
+                cursor.moveToNext();
+            }
+            cursor.close();
         }
-        cursor.close();
+        catch (Exception e)
+        {
+            Log.d("database get failed: ", e.getMessage());
+        }
+
+
         return beer;
     }
 
     public String getBeerColour(String IDbeer){
-        String beer = new String("Beer not found");
-        String[] columns = {"colour"};
-        String[] selectionArgs = new String[]{IDbeer};
-        Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
-        cursor.moveToFirst();
-        while (!cursor.isAfterLast()) {
-            beer = cursor.getString(0);
-            cursor.moveToNext();
+        String beer = new String("not found");
+
+        try
+        {
+            String[] columns = {"colour"};
+            String[] selectionArgs = new String[]{IDbeer};
+            Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
+            cursor.moveToFirst();
+            while (!cursor.isAfterLast()) {
+                beer = cursor.getString(0);
+                cursor.moveToNext();
+            }
+            cursor.close();
         }
-        cursor.close();
+        catch (Exception e)
+        {
+            Log.d("database get failed: ", e.getMessage());
+        }
+
+
         return beer;
     }
 
     public String getBeerFlavour(String IDbeer){
-        String beer = new String("Beer not found");
-        String[] columns = {"flavour"};
-        String[] selectionArgs = new String[]{IDbeer};
-        Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
-        cursor.moveToFirst();
-        while (!cursor.isAfterLast()) {
-            beer = cursor.getString(0);
-            cursor.moveToNext();
+        String beer = new String("not found");
+
+        try
+        {
+            String[] columns = {"flavour"};
+            String[] selectionArgs = new String[]{IDbeer};
+            Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
+            cursor.moveToFirst();
+            while (!cursor.isAfterLast()) {
+                beer = cursor.getString(0);
+                cursor.moveToNext();
+            }
+            cursor.close();
         }
-        cursor.close();
+        catch (Exception e)
+        {
+            Log.d("database get failed: ", e.getMessage());
+        }
+
         return beer;
     }
 
     public String getBeerGrain(String IDbeer){
-        String beer = new String("Beer not found");
-        String[] columns = {"grain"};
-        String[] selectionArgs = new String[]{IDbeer};
-        Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
-        cursor.moveToFirst();
-        while (!cursor.isAfterLast()) {
-            beer = cursor.getString(0);
-            cursor.moveToNext();
+        String beer = new String("not found");
+
+        try
+        {
+            String[] columns = {"grain"};
+            String[] selectionArgs = new String[]{IDbeer};
+            Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
+            cursor.moveToFirst();
+            while (!cursor.isAfterLast()) {
+                beer = cursor.getString(0);
+                cursor.moveToNext();
+            }
+            cursor.close();
         }
-        cursor.close();
+        catch (Exception e)
+        {
+            Log.d("database get failed: ", e.getMessage());
+        }
+
+
         return beer;
     }
 
     public String getBeerYeast(String IDbeer){
-        String beer = new String("Beer not found");
-        String[] columns = {"yeast"};
-        String[] selectionArgs = new String[]{IDbeer};
-        Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
-        cursor.moveToFirst();
-        while (!cursor.isAfterLast()) {
-            beer = cursor.getString(0);
-            cursor.moveToNext();
+        String beer = new String("not found");
+
+        try
+        {
+            String[] columns = {"yeast"};
+            String[] selectionArgs = new String[]{IDbeer};
+            Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
+            cursor.moveToFirst();
+            while (!cursor.isAfterLast()) {
+                beer = cursor.getString(0);
+                cursor.moveToNext();
+            }
+            cursor.close();
         }
-        cursor.close();
+        catch (Exception e)
+        {
+            Log.d("database get failed: ", e.getMessage());
+        }
+
         return beer;
     }
 
     public String getBeerHop(String IDbeer){
-        String beer = new String("Beer not found");
-        String[] columns = {"hop"};
-        String[] selectionArgs = new String[]{IDbeer};
-        Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
-        cursor.moveToFirst();
-        while (!cursor.isAfterLast()) {
-            beer = cursor.getString(0);
-            cursor.moveToNext();
+        String beer = new String("not found");
+
+        try
+        {
+            String[] columns = {"hop"};
+            String[] selectionArgs = new String[]{IDbeer};
+            Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
+            cursor.moveToFirst();
+            while (!cursor.isAfterLast()) {
+                beer = cursor.getString(0);
+                cursor.moveToNext();
+            }
+            cursor.close();
         }
-        cursor.close();
+        catch (Exception e)
+        {
+            Log.d("database get failed: ", e.getMessage());
+        }
+        
         return beer;
     }
 
     public String getBeerFermentation(String IDbeer){
-        String beer = new String("Beer not found");
-        String[] columns = {"fermentation"};
-        String[] selectionArgs = new String[]{IDbeer};
-        Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
-        cursor.moveToFirst();
-        while (!cursor.isAfterLast()) {
-            beer = cursor.getString(0);
-            cursor.moveToNext();
+        String beer = new String("Fermentation info not found");
+
+        try
+        {
+            String[] columns = {"fermentation"};
+            String[] selectionArgs = new String[]{IDbeer};
+            Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
+            cursor.moveToFirst();
+            while (!cursor.isAfterLast()) {
+                beer = cursor.getString(0);
+                cursor.moveToNext();
+            }
+            cursor.close();
         }
-        cursor.close();
+        catch (Exception e)
+        {
+            Log.d("database get failed: ", e.getMessage());
+        }
+
+
         return beer;
     }
 
     public String getBeerExtras(String IDbeer){
-        String beer = new String("Beer not found");
-        String[] columns = {"extras"};
-        String[] selectionArgs = new String[]{IDbeer};
-        Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
-        cursor.moveToFirst();
-        while (!cursor.isAfterLast()) {
-            beer = cursor.getString(0);
-            cursor.moveToNext();
+        String beer = new String("Extra not found");
+
+        try
+        {
+            String[] columns = {"extras"};
+            String[] selectionArgs = new String[]{IDbeer};
+            Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
+            cursor.moveToFirst();
+            while (!cursor.isAfterLast()) {
+                beer = cursor.getString(0);
+                cursor.moveToNext();
+            }
+            cursor.close();
         }
-        cursor.close();
+        catch (Exception e)
+        {
+            Log.d("database get failed: ", e.getMessage());
+        }
+
         return beer;
     }
 
     public String getBeerSuggest(String IDbeer){
-        String beer = new String("Beer not found");
-        String[] columns = {"suggestion"};
-        String[] selectionArgs = new String[]{IDbeer};
-        Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
-        cursor.moveToFirst();
-        while (!cursor.isAfterLast()) {
-            beer = cursor.getString(0);
-            cursor.moveToNext();
+        String suggestion = new String("Suggestion not found");
+        try
+        {
+            String[] columns = {"suggestion"};
+            String[] selectionArgs = new String[]{IDbeer};
+            Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
+            cursor.moveToFirst();
+            while (!cursor.isAfterLast()) {
+                suggestion = cursor.getString(0);
+                cursor.moveToNext();
+            }
+            cursor.close();
         }
-        cursor.close();
-        return beer;
+        catch (Exception e)
+        {
+            Log.d("database get failed: ", e.getMessage());
+        }
+
+        return suggestion;
     }
 }
