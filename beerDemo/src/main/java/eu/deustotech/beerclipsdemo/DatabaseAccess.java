@@ -225,6 +225,6 @@ public class DatabaseAccess {
             cursor.moveToNext();
         }
         cursor.close();
-        return "zimbabwe";
+        return beer;
     }
 }
