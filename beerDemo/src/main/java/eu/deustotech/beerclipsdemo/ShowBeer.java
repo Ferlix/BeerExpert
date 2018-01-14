@@ -18,6 +18,7 @@ import org.w3c.dom.Text;
 // The ID of the beer is sent from the main activity
 public class ShowBeer extends Activity  {
 
+    Beer selectedBeer;
     String debugQueryText;
     String beerID;
     String nameBeer;
@@ -33,57 +34,50 @@ public class ShowBeer extends Activity  {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        // Set layout
+        // Set layout:
         super.onCreate(savedInstanceState);
         setContentView(R.layout.beer_information);
 
-
+        // Get input from other activity:
         beerID = getIntent().getStringExtra("ANSWER");
         debugQueryText = getIntent().getStringExtra("DEBUG");
 
+        // Retrieve beer from database:
         DatabaseAccess databaseAccess = DatabaseAccess.getInstance(this);
         databaseAccess.open();
+        selectedBeer = new Beer(beerID);
+        databaseAccess.close();
 
-        // Set the texts of the section getting them from the dataabase class:
-        nameBeer = databaseAccess.getBeerName(beerID);
+        // Set the texts of the section getting them from the beer object:
         TextView name = (TextView) findViewById(R.id.beerNameView);
-        name.setText(nameBeer);
+        name.setText(selectedBeer.getNameBeer());
 
-        colourBeer = databaseAccess.getBeerColour(beerID);
         TextView colour = (TextView) findViewById(R.id.colourBeerView);
-        colour.setText(colourBeer);
+        colour.setText(selectedBeer.getColourBeer());
 
-        typeBeer = databaseAccess.getBeerType(beerID);
         TextView type = (TextView) findViewById(R.id.typeBeerView);
-        type.setText(typeBeer);
+        type.setText(selectedBeer.getTypeBeer());
 
-        flavourBeer = databaseAccess.getBeerFlavour(beerID);
         TextView flavour = (TextView) findViewById(R.id.flavourBeer);
-        flavour.setText(flavourBeer);
+        flavour.setText(selectedBeer.getFlavourBeer());
 
-        grainBeer = databaseAccess.getBeerGrain(beerID);
         TextView grain = (TextView) findViewById(R.id.grainBeerView);
-        grain.setText(grainBeer);
+        grain.setText(selectedBeer.getGrainBeer());
 
-        yeastBeer = databaseAccess.getBeerYeast(beerID);
         TextView yeast = (TextView) findViewById(R.id.yeastBeerView);
-        yeast.setText(yeastBeer);
+        yeast.setText(selectedBeer.getYeastBeer());
 
-        hopBeer = databaseAccess.getBeerHop(beerID);
         TextView hop = (TextView) findViewById(R.id.hopBeerView);
-        hop.setText(hopBeer);
+        hop.setText(selectedBeer.getHopBeer());
 
-        fermentationBeer = databaseAccess.getBeerFermentation(beerID);
         TextView fermentation = (TextView) findViewById(R.id.fermentationBeerView);
-        fermentation.setText(fermentationBeer);
+        fermentation.setText(selectedBeer.getFermentationBeer());
 
-        extrasBeer = databaseAccess.getBeerExtras(beerID);
         TextView extras = (TextView) findViewById(R.id.extrasBeerView);
-        extras.setText(extrasBeer);
+        extras.setText(selectedBeer.getExtrasBeer());
 
-        suggestedBeer = databaseAccess.getBeerSuggest(beerID);
         TextView suggestView = (TextView) findViewById(R.id.suggestBeerView);
-        suggestView.setText(suggestedBeer);
+        suggestView.setText(selectedBeer.getSuggestedBeer());
 
         // Set titles of section invisible if there is nothing to display:
         TextView grainTitle = (TextView) findViewById(R.id.grainTitle);
@@ -97,9 +91,6 @@ public class ShowBeer extends Activity  {
         if(hop.getText().length() == 0) hopTitle.setVisibility(View.GONE);
         if(fermentation.getText().length() == 0) fermentationTitle.setVisibility(View.GONE);
         if(extras.getText().length() == 0) extrasTitle.setVisibility(View.GONE);
-
-        databaseAccess.close();
-
 
     }
 

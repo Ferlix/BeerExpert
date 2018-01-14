@@ -1,14 +1,14 @@
 #Internal package file, do not edit.
-#Sun Jan 14 22:51:34 GMT+01:00 2018
-4.path=lib/armeabi-v7a/libclips.so
+#Sun Jan 14 23:20:20 GMT+01:00 2018
+4.path=databases/beersDatabase3.zip
 8.set=ASSET
 6.path=classes.dex
 0.baseType=DIRECTORY
 5.baseType=DIRECTORY
 1.base=C\:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
 8.path=44.clp
-3.base=C\:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\assets\\debug
-4.set=NATIVE_RESOURCE
+3.base=C\:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+4.set=ASSET
 5.base=C\:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\assets\\debug
 7.base=C\:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\assets\\debug
 9.base=C\:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
@@ -16,18 +16,18 @@
 0.set=ASSET
 6.baseType=DIRECTORY
 7.set=ASSET
-3.set=ASSET
+3.set=NATIVE_RESOURCE
 2.baseType=DIRECTORY
 1.path=lib/x86/libclipsdroid.so
 7.baseType=DIRECTORY
-3.path=databases/beersDatabase1.zip
+3.path=lib/armeabi-v7a/libclips.so
 5.path=bcdemo.clp
 0.base=C\:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\assets\\debug
 7.path=45.clp
 9.path=lib/x86/libclips.so
 6.set=DEX
 2.base=C\:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
-4.base=C\:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+4.base=C\:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\assets\\debug
 3.baseType=DIRECTORY
 6.base=C\:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 8.base=C\:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\assets\\debug

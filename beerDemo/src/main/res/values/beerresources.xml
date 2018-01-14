@@ -12,7 +12,7 @@
    giving you also the needed ingredients for brewing it. \n \n
     Test it out!</string>
 
-    <string name="advanced.query">Do you have much experience brewing?</string>
+    <string name="advanced.query">Are you an experienced brewer?</string>
     <string name="cherry.query">Do you prefer a cherry flavour to your beer?</string>
     <string name="dry.query">Do you prefer a dry beer?</string>
     <string name="high.alcohol.query">Are you willing to try a stronger beer?</string>
