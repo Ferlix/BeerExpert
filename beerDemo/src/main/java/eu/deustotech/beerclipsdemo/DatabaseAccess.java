@@ -16,7 +16,7 @@ public class DatabaseAccess {
 
     // Define database name and columns
     String table = "beers";
-    String[] columns = {"IDbeer", "name", "type", "colour", "flavour", "grain", "yeast", "hop", "fermentation", "extras"};
+    String[] columns = {"IDbeer", "name", "type", "colour", "flavour", "grain", "yeast", "hop", "fermentation", "extras", "suggestion"};
     String selection = "IDbeer =?";
     String[] selectionArgs;
     String groupBy = null;

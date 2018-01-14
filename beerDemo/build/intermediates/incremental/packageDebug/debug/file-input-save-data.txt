@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jan 14 22:46:00 GMT+01:00 2018
+#Sun Jan 14 22:51:34 GMT+01:00 2018
 4.path=lib/armeabi-v7a/libclips.so
 8.set=ASSET
 6.path=classes.dex
