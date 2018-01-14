@@ -29,6 +29,7 @@ public class ShowBeer extends Activity  {
     String hopBeer;
     String fermentationBeer;
     String extrasBeer;
+    String suggestedBeer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,10 +48,6 @@ public class ShowBeer extends Activity  {
         nameBeer = databaseAccess.getBeerName(beerID);
         TextView name = (TextView) findViewById(R.id.beerNameView);
         name.setText(nameBeer);
-
-        ImageView imageView = (ImageView)findViewById(R.id.beerImage);
-        imageView.setImageResource(R.mipmap.test);
-
 
         colourBeer = databaseAccess.getBeerColour(beerID);
         TextView colour = (TextView) findViewById(R.id.colourBeerView);
@@ -83,6 +80,10 @@ public class ShowBeer extends Activity  {
         extrasBeer = databaseAccess.getBeerExtras(beerID);
         TextView extras = (TextView) findViewById(R.id.extrasBeerView);
         extras.setText(extrasBeer);
+
+        suggestedBeer = databaseAccess.getBeerSuggest(beerID);
+        TextView suggestView = (TextView) findViewById(R.id.suggestBeerView);
+        suggestView.setText(suggestedBeer);
 
         // Set titles of section invisible if there is nothing to display:
         TextView grainTitle = (TextView) findViewById(R.id.grainTitle);

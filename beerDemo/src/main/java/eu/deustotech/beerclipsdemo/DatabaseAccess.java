@@ -213,4 +213,18 @@ public class DatabaseAccess {
         cursor.close();
         return beer;
     }
+
+    public String getBeerSuggest(String IDbeer){
+        String beer = new String("Beer not found");
+        String[] columns = {"suggestion"};
+        String[] selectionArgs = new String[]{IDbeer};
+        Cursor cursor = database.query(table, columns, selection, selectionArgs, null, null, null);
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()) {
+            beer = cursor.getString(0);
+            cursor.moveToNext();
+        }
+        cursor.close();
+        return beer;
+    }
 }
