@@ -103,7 +103,7 @@ public class MainActivity extends Activity implements NextStateListener {
 		throw new FileNotFoundException("The external storage is not mounted.");
 	}
 
-	private void setEnabledButtons(boolean restart, boolean previous) {
+	private void setEnabledButtons(boolean restart, boolean previous, boolean next) {
 		final Button btnRestart = (Button) findViewById(R.id.btnRestart);
 		btnRestart.setEnabled(restart);
 
@@ -181,7 +181,7 @@ public class MainActivity extends Activity implements NextStateListener {
 			submitTaskToExpertSystem( taskFactory.createNextTask("YES") );
 
 		} catch (IOException e) {
-			setEnabledButtons( false, false );
+			setEnabledButtons( false, false, false );
 			setLabelText( e.getMessage() );
 		}
 	}
@@ -213,7 +213,7 @@ public class MainActivity extends Activity implements NextStateListener {
 	private void submitTaskToExpertSystem(Runnable runnable) {
 		// Let's ensure that while CLIPS finishes current reasoning,
 		// the GUI will not launch new tasks.
-		setEnabledButtons(false, false);
+		setEnabledButtons(false, false, false);
 
 		this.executor.submit( runnable );
 	}
@@ -223,7 +223,7 @@ public class MainActivity extends Activity implements NextStateListener {
 		this.runOnUiThread(
 				new Runnable() {
 					public void run() {
-						setEnabledButtons(false, false);
+						setEnabledButtons(false, false, true);
 						setLabelText( getResourceString( state.getQuestion() ) );
 					}
 				}
@@ -235,7 +235,7 @@ public class MainActivity extends Activity implements NextStateListener {
 		this.runOnUiThread(
 				new Runnable() {
 					public void run() {
-						setEnabledButtons(true, true);
+						setEnabledButtons(true, true, true);
 						setLabelText( getResourceString( state.getQuestion() ) );
 						debugQueryText = debugQueryText + "\n\n" + getResourceString(state.getQuestion());
 					}
@@ -255,7 +255,7 @@ public class MainActivity extends Activity implements NextStateListener {
 					intent.putExtra("DEBUG", debugQueryText);
 					startActivity(intent);
 					submitTaskToExpertSystem( taskFactory.createPreviousTask() );
-					setEnabledButtons(true, true);
+					setEnabledButtons(true, true, false);
 				}
 			}
 		);
