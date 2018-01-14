@@ -8,3 +8,5 @@
 /captures
 .externalNativeBuild
 clipsAndroid/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_build.json
+/beerDemo/build
+/clipsAndroid/build
