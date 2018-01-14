@@ -1,0 +1,4 @@
+#Sun Jan 14 22:46:00 GMT+01:00 2018
+base.0=C\:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
