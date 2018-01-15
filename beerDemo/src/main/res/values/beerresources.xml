@@ -7,23 +7,23 @@
     <string name="Prev">Prev</string>
     <string name="Restart">Restart</string>
     <string name="WelcomeMessage">nothing to show :P</string>
-    <string name="WelcomePage">Welcome to the Brew Expert System! \n
-    This wise application can tell you what\'s the perfect beer for you,
-   giving you also the needed ingredients for brewing it. \n \n
-    Test it out!</string>
+    <string name="WelcomePage">
+    Welcome to the Brewing Expert System. This application will recommend the perfect beer for you,
+    while providing the required ingredients to brew it.
+    </string>
 
     <string name="advanced.query">Are you an experienced brewer?</string>
-    <string name="cherry.query">Do you prefer a cherry flavour to your beer?</string>
+    <string name="cherry.query">Would you like to try a beer with cherry flavours?</string>
     <string name="dry.query">Do you prefer a dry beer?</string>
     <string name="high.alcohol.query">Are you willing to try a stronger beer?</string>
-    <string name="bitter.query">Do you prefer a bitter beer?</string>
+    <string name="bitter.query">Are you interested in bitter notes in your beer?</string>
     <string name="sweetness.query">Do you prefer sweeter beers?</string>
-    <string name="fruity.query">Do you prefer fruity beers?</string>
+    <string name="fruity.query">Do you prefer fruity over malt flavours?</string>
     <string name="blonde.query">Do you prefer blonde beers?</string>
     <string name="dark.colour.query">Do you prefer darker beers?</string>
-    <string name="hops.query">Do you prefer hoppy beers?</string>
+    <string name="hops.query">Do you like to taste hops in your beer?</string>
     <string name="caramel.query">Do you prefer beers with a caramel taste?</string>
-    <string name="citrus.query">Do you want a citrusy taste?</string>
+    <string name="citrus.query">Would you like to try a beer with citrus notes?</string>
 
     <string name="blonde.lager">blonde.lager</string>
     <string name="faro">faro</string>
