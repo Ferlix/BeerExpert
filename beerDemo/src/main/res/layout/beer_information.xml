@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/ScrollView01"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -15,7 +16,7 @@
 
         <TextView
             android:id="@+id/beerNameView"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
@@ -23,16 +24,28 @@
             android:layout_marginLeft="36dp"
             android:layout_marginStart="36dp"
             android:layout_marginTop="42dp"
+            android:gravity="center_horizontal"
             android:text="TextView"
             android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/suggestBeerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/characteristicsTitle"
+            android:layout_alignStart="@+id/characteristicsTitle"
+            android:layout_below="@+id/suggestBeerTitle"
+            android:gravity="center_horizontal"
+            android:text="TextView"
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/characteristicsTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/beerNameView"
-            android:layout_alignStart="@+id/beerNameView"
-            android:layout_below="@+id/beerNameView"
+            android:layout_alignLeft="@+id/beerImageView"
+            android:layout_alignStart="@+id/beerImageView"
+            android:layout_below="@+id/suggestBeerView"
             android:layout_marginTop="20dp"
             android:text="Charateristics"
             android:textSize="22sp" />
@@ -216,24 +229,27 @@
 
         <TextView
             android:id="@+id/suggestBeerTitle"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/extrasBeerView"
-            android:layout_alignStart="@+id/extrasBeerView"
-            android:layout_below="@+id/extrasBeerView"
-            android:layout_marginTop="10dp"
+            android:layout_alignLeft="@+id/suggestBeerView"
+            android:layout_alignStart="@+id/suggestBeerView"
+            android:layout_below="@+id/beerImageView"
+            android:gravity="center_horizontal"
             android:text="Suggested Sample Beer" />
 
-        <TextView
-            android:id="@+id/suggestBeerView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/extrasBeerView"
-            android:layout_alignStart="@+id/extrasBeerView"
-            android:layout_below="@+id/suggestBeerTitle"
-            android:layout_marginRight="30dp"
-            android:text="TextView"
-            android:textSize="18sp" />
+        <ImageView
+            android:id="@+id/beerImageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignLeft="@+id/beerNameView"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/beerNameView"
+            android:layout_below="@+id/beerNameView"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false" />
 
     </RelativeLayout>
 

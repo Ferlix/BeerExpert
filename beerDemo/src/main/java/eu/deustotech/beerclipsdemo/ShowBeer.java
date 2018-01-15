@@ -21,16 +21,6 @@ public class ShowBeer extends Activity  {
     Beer selectedBeer;
     String debugQueryText;
     String beerID;
-    String nameBeer;
-    String typeBeer;
-    String colourBeer;
-    String flavourBeer;
-    String grainBeer;
-    String yeastBeer;
-    String hopBeer;
-    String fermentationBeer;
-    String extrasBeer;
-    String suggestedBeer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -91,6 +81,9 @@ public class ShowBeer extends Activity  {
         if(hop.getText().length() == 0) hopTitle.setVisibility(View.GONE);
         if(fermentation.getText().length() == 0) fermentationTitle.setVisibility(View.GONE);
         if(extras.getText().length() == 0) extrasTitle.setVisibility(View.GONE);
+
+        ImageView i = (ImageView) findViewById(R.id.beerImageView);
+        i.setImageResource(getResources().getIdentifier(beerID, "drawable", getPackageName()));
 
     }
 

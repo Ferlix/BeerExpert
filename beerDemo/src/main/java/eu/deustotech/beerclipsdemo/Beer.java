@@ -39,24 +39,6 @@ public class Beer extends Activity{
         databaseAccess.close();
     }
 
-    public void retrieveBeer(String beerID){
-        DatabaseAccess databaseAccess = DatabaseAccess.getInstance(this);
-        databaseAccess.open();
-
-        // Set the texts of the section getting them from the database class:
-        nameBeer = databaseAccess.getBeerName(beerID);
-        colourBeer = databaseAccess.getBeerColour(beerID);
-        typeBeer = databaseAccess.getBeerType(beerID);
-        flavourBeer = databaseAccess.getBeerFlavour(beerID);
-        grainBeer = databaseAccess.getBeerGrain(beerID);
-        yeastBeer = databaseAccess.getBeerYeast(beerID);
-        hopBeer = databaseAccess.getBeerHop(beerID);
-        fermentationBeer = databaseAccess.getBeerFermentation(beerID);
-        extrasBeer = databaseAccess.getBeerExtras(beerID);
-        suggestedBeer = databaseAccess.getBeerSuggest(beerID);
-
-        databaseAccess.close();
-    }
 
     // Getters for the beer's variables:
 
@@ -64,23 +46,17 @@ public class Beer extends Activity{
         return nameBeer;
     }
 
-
-
     public String getTypeBeer() {
         return typeBeer;
     }
-
-
 
     public String getColourBeer() {
         return colourBeer;
     }
 
-
     public String getFlavourBeer() {
         return flavourBeer;
     }
-
 
     public String getGrainBeer() {
         return grainBeer;

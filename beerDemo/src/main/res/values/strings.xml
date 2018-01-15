@@ -10,7 +10,7 @@
 
 
     <string name="about_this_app">
-        Version: 1.1\n\nThis Android application is developed for the course
+        Version: 1.2\n\nThis Android application is developed for the course
         Knowledge Technology Practical at the University of Groningen. \n \n
         \nIt implements an expert system containing knowledge of beers, elicited from an expert brewer.
     </string>

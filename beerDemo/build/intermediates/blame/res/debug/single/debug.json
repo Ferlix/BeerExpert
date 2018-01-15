@@ -1,43 +1,47 @@
 [
     {
-        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
-        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\menu\\main.xml"
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable_englishipa.png.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\drawable\\englishipa.png"
     },
     {
         "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_beer_icon_launcher.png.flat",
         "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\mipmap-mdpi\\beer_icon_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\layout_beer_information.xml.flat",
-        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\layout\\beer_information.xml"
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable_bock.png.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\drawable\\bock.png"
     },
     {
-        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_beer_icon_launcher.png.flat",
-        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\mipmap-xxxhdpi\\beer_icon_launcher.png"
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable_faro.png.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\drawable\\faro.png"
     },
     {
-        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_test.png.flat",
-        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\mipmap-xxhdpi\\test.png"
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable_tripletrappist.png.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\drawable\\tripletrappist.png"
     },
     {
         "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_test.png.flat",
         "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\mipmap-hdpi\\test.png"
     },
     {
-        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\menu_debug_menu.xml.flat",
-        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\menu\\debug_menu.xml"
-    },
-    {
         "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_beer_icon_launcher.png.flat",
         "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\mipmap-xhdpi\\beer_icon_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable_stout.png.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\drawable\\stout.png"
     },
     {
         "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\layout_start_page.xml.flat",
         "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\layout\\start_page.xml"
     },
     {
-        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable_paleale.png.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\drawable\\paleale.png"
+    },
+    {
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable_dutchbock.png.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\drawable\\dutchbock.png"
     },
     {
         "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_test.png.flat",
@@ -48,19 +52,87 @@
         "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\mipmap-hdpi\\beer_icon_launcher.png"
     },
     {
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable_blondetrappist.png.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\drawable\\blondetrappist.png"
+    },
+    {
         "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_test.png.flat",
         "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\mipmap-mdpi\\test.png"
+    },
+    {
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable_quadrupeltrappist.png.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\drawable\\quadrupeltrappist.png"
     },
     {
         "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\layout_debug_layout.xml.flat",
         "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\layout\\debug_layout.xml"
     },
     {
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable_kriek.png.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\drawable\\kriek.png"
+    },
+    {
         "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_beer_icon_launcher.png.flat",
         "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\mipmap-xxhdpi\\beer_icon_launcher.png"
     },
     {
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\layout_beer_information.xml.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\layout\\beer_information.xml"
+    },
+    {
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_beer_icon_launcher.png.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\mipmap-xxxhdpi\\beer_icon_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable_palelager.png.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\drawable\\palelager.png"
+    },
+    {
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_test.png.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\mipmap-xxhdpi\\test.png"
+    },
+    {
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable_porter.png.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\drawable\\porter.png"
+    },
+    {
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\menu_debug_menu.xml.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\menu\\debug_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable_usipa.png.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\drawable\\usipa.png"
+    },
+    {
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable_indiapalelager.png.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\drawable\\indiapalelager.png"
+    },
+    {
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable_dubbeltrappist.png.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\drawable\\dubbeltrappist.png"
+    },
+    {
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable_wheatale.png.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\drawable\\wheatale.png"
+    },
+    {
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable_gueuze.png.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\drawable\\gueuze.png"
+    },
+    {
         "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_test.png.flat",
         "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\mipmap-xhdpi\\test.png"
+    },
+    {
+        "merged": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\build\\intermediates\\res\\merged\\debug\\drawable_germanbock.png.flat",
+        "source": "C:\\Users\\Marco\\Documents\\GitHub\\BeerExpert\\beerDemo\\src\\main\\res\\drawable\\germanbock.png"
     }
 ]
